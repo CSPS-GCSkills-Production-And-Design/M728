@@ -1,0 +1,48 @@
+<h1>Guiding Principle 1 - Metering</h1>
+<div class="col-md-12">
+    <div class="instructions">
+        <div class="circle_icon video"></div>
+        <p class="content">Watch the following video to learn about the first guiding principle: metering.</p>
+    </div>
+    <div class="video_player col-sm-10 col-sm-offset-1">
+        <div class="ipad-camera"></div>
+        <figure class="wb-mltmd col-sm-10  col-sm-offset-1">
+            <video poster="content/medias/videos/posters/Principle1_en.jpg" tabindex="-1" title="Guiding Principle 1 - Metering">
+                <source type="video/mp4" src="https://video.csps-efpc.gc.ca/p/101/sp/10100/playManifest/entryId/0_ock1ue1y/flavorId/0_p1cbfs4f/format/url/protocol/https/a.mp4" />
+                <track data-type="application/ttml+xml" kind="captions" label="English" src="content/medias/videos/subtitles/Principle1_en.xml" srclang="en">
+            </video>
+            <figcaption>
+                <div class="accordion vertical">
+                    <details id="inline-captions">
+                        <summary><span class="glyphicon glyphicon-plus"></span>Transcript</summary>
+                        <div class="tgl-panel">
+                            <h2>Guiding Principle 1 - Metering — Video Transcript</h2>
+							<p>The first Guiding Principle relates to metering.</p>
+							<p>Metering is the practice of recording the amount of energy being consumed within a facility.</p>
+							<p>While most services to a building or campus are metered for billing purposes, there is an opportunity to further understand how energy is consumed in a building by installing additional meters on specific components. By metering buildings and services individually rather than as a group, energy managers can more easily identify opportunities for improvement.</p>
+							<p>Best Practice states that facilities should install building level meters for electricity, natural gas, and steam at a minimum. Different types of meters are available to meet the required level of detail.</p>
+							<p>The Greening Government Strategy states that all departments should meter energy use and report energy use intensity by 2022 for government-owned buildings of no less than 1,000 square meters.</p>
+                        </div>
+                    </details>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="clearfix"></div>
+    <div class="transcript-clearfix"></div>
+</div>
+<script>
+$(".video_player figcaption details").on("toggle", function() {
+    if ($(this).prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    } else {
+        $(".transcript-clearfix").css({ marginTop: 0 });
+    }
+});
+
+$(window).resize(function() {
+    if ($(".video_player figcaption details").prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    }
+});
+</script>

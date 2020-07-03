@@ -1,0 +1,49 @@
+<h1>Principe directeur no 1 - Mesurage</h1>
+<div class="col-md-12">
+    <div class="instructions">
+        <div class="circle_icon video"></div>
+        <p class="content">Visionnez la vidéo suivante pour en apprendre sur le premier principe directeur, soit le mesurage.</p>
+    </div>
+    <div class="video_player col-sm-10 col-sm-offset-1">
+        <div class="ipad-camera"></div>
+        <figure class="wb-mltmd col-sm-10  col-sm-offset-1">
+            <video poster="content/medias/videos/posters/Principe1_fr.jpg" tabindex="-1" title="Principe directeur no 1 - Mesurage">
+                <source type="video/mp4" src="https://video.csps-efpc.gc.ca/p/101/sp/10100/playManifest/entryId/0_en7ye6nw/flavorId/0_ripjh5ai/format/url/protocol/https/a.mp4" />
+                <track data-type="text/ttml+xml" kind="captions" label="Français" src="content/medias/videos/subtitles/Principe1_fr.xml" srclang="fr">
+            </video>
+            <figcaption>
+                <div class="accordion vertical">
+                    <details id="inline-captions">
+                        <summary><span class="glyphicon glyphicon-plus"></span>Transcription</summary>
+                        <div class="tgl-panel">
+                            <h2>Principe directeur no 1 - Mesurage — Transcription de la vidéo</h2>
+                            <p>Le premier principe directeur concerne le mesurage.</p>
+							<p>Le mesurage consiste à enregistrer la quantité d’énergie consommée dans une installation.</p>
+							<p>Même si la plupart des services utilisés dans un bâtiment ou sur un site sont mesurés à des fins de facturation, il est possible de mieux comprendre comment l'énergie est consommée dans un bâtiment en installant des compteurs supplémentaires sur des composants spécifiques.</p>
+							<p>En mesurant l’utilisation par bâtiment et par service plutôt que par groupe, les gestionnaires de l’énergie peuvent plus facilement identifier les opportunités d'amélioration.</p>
+							<p>Les pratiques exemplaires dictent qu’au minimum, des compteurs d’électricité, de gaz naturel et de vapeur doivent être installés dans chaque bâtiment. Il peut s’agir de compteurs avancés ou classiques, selon le degré de précision nécessaire.</p>
+							<p>La Stratégie pour un gouvernement vert précise que tous les ministères doivent mesurer leur consommation d’énergie et faire un rapport sur leur intensité énergétique d’ici 2022 pour les bâtiments d’au moins 1 000 mètres carrés appartenant au gouvernement.</p>
+                        </div>
+                    </details>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="clearfix"></div>
+    <div class="transcript-clearfix"></div>
+</div>
+<script>
+$(".video_player figcaption details").on("toggle", function() {
+    if ($(this).prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    } else {
+        $(".transcript-clearfix").css({ marginTop: 0 });
+    }
+});
+
+$(window).resize(function() {
+    if ($(".video_player figcaption details").prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    }
+});
+</script>

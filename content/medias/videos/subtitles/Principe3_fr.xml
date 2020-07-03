@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.0s" xml:id="p0" end="0.36s">Ressources naturelles Canada.</p>
+      <p begin="1.3s" xml:id="p1" end="3.82s">Après avoir effectué une analyse comparative</p>
+      <p begin="3.82s" xml:id="p2" end="8.96s">du rendement énergétique, l’étape suivante<br />consiste à proposer et à évaluer des solutions</p>
+      <p begin="8.96s" xml:id="p3" end="12.48s">visant améliorer l’efficacité énergétique<br />d’un bâtiment.</p>
+      <p begin="12.48s" xml:id="p4" end="15.2s">Il existe trois pratiques exemplaires à suivre</p>
+      <p begin="15.2s" xml:id="p5" end="17.74s">pour améliorer l’efficacité énergétique.</p>
+      <p begin="17.74s" xml:id="p6" end="21.98s">Il convient d’appliquer ces pratiques exemplaires<br />en fonction de l’âge du bâtiment,</p>
+      <p begin="21.98s" xml:id="p7" end="25.82s">des conditions d’exploitation actuelles et des<br />renseignements disponibles.</p>
+      <p begin="25.82s" xml:id="p8" end="30.53s">Lorsque peu de renseignements sont disponibles<br />sur les conditions d’exploitation actuelles,</p>
+      <p begin="30.53s" xml:id="p9" end="35.04s">la première pratique exemplaire consiste<br />à effectuer une vérification de la consommation</p>
+      <p begin="35.04s" xml:id="p10" end="39.51s">énergétique de l’ensemble du bâtiment<br />afin de déterminer les principaux éléments</p>
+      <p begin="39.51s" xml:id="p11" end="43.4s">énergivores et de trouver des possibilités<br />d’amélioration.</p>
+      <p begin="43.4s" xml:id="p12" end="47.74s">Si l’on connaît le rendement énergétique<br />et les conditions d’exploitation du bâtiment,</p>
+      <p begin="47.74s" xml:id="p13" end="52.39s">il pourrait être raisonnable d’appliquer<br />la pratique exemplaire numéro deux relative</p>
+      <p begin="52.39s" xml:id="p14" end="54.14s">à la remise en service.</p>
+      <p begin="54.14s" xml:id="p15" end="57.52s">En fait, la pratique exemplaire recommande<br />d’effectuer une remise</p>
+      <p begin="57.52s" xml:id="p16" end="60.72s">en service tous les cinq ans afin de garantir le maintien</p>
+      <p begin="60.72s" xml:id="p17" end="63.56s">du rendement énergétique optimal du bâtiment.</p>
+      <p begin="63.56s" xml:id="p18" end="68.04s">La dernière pratique exemplaire consiste<br />à s’assurer que tout l’équipement et</p>
+      <p begin="68.04s" xml:id="p19" end="72.54s">tous les produits écoénergétiques sont<br />fournis et installés selon les exigences.</p>
+      <p begin="73.4s" xml:id="p20" end="77.44s">En matière d’efficacité énergétique,<br />il est possible d’évaluer la réussite</p>
+      <p begin="77.44s" xml:id="p21" end="81.76s">dans les installations en utilisant deux principaux<br />indicateurs de rendement.</p>
+      <p begin="81.76s" xml:id="p22" end="86.66s">La première solution consiste à obtenir<br />une cote ENERGY STAR d’au moins 75</p>
+      <p begin="86.66s" xml:id="p23" end="89.06s">en utilisant Portfolio Manager.</p>
+      <p begin="89.06s" xml:id="p24" end="94.04s">La cote sur la consommation d’énergie permet<br />d’obtenir une référence externe qui permet</p>
+      <p begin="94.05s" xml:id="p25" end="98.38s">aux gestionnaires de l’énergie d’évaluer<br />l’efficacité énergétique d’un bâtiment</p>
+      <p begin="98.38s" xml:id="p26" end="102.9s">par rapport à des bâtiments semblables.<br />Une cote d’au moins 75 indique que votre</p>
+      <p begin="102.9s" xml:id="p27" end="107.52s">bâtiment se situe dans les 25 premiers centiles<br />du rendement en comparaison avec</p>
+      <p begin="107.52s" xml:id="p28" end="110.14s">les bâtiments du même type d’exploitation.</p>
+      <p begin="110.14s" xml:id="p29" end="113.7s">Il est possible d’utiliser les rapports<br />ENERGY STAR pour démontrer</p>
+      <p begin="113.7s" xml:id="p30" end="115.98s">la bonne mise en œuvre dans ce domaine.</p>
+      <p begin="115.98s" xml:id="p31" end="120.14s">De plus, il est possible pour certains bâtiments commerciaux et institutionnels</p>
+      <p begin="120.14s" xml:id="p32" end="125.44s">admissibles ayant obtenu une cote d’au moins<br />75, d’apposer l’étiquette ENERGY STAR</p>
+      <p begin="125.44s" xml:id="p33" end="130.08s">grâce au programme de certification des bâtiments ENERGY STAR de RNCan.</p>
+      <p begin="130.08s" xml:id="p34" end="135.14s">Nous traiterons des cotes ENERGY STAR en<br />détail dans les diapositives suivantes.</p>
+      <p begin="136.0s" xml:id="p35" end="139.48s">Les cotes ENERGY STAR varient entre 1 et 100.</p>
+      <p begin="139.48s" xml:id="p36" end="141.88s">Les bâtiments qui obtiennent une faible cote</p>
+      <p begin="141.88s" xml:id="p37" end="146.24s">peuvent être de très bons candidats pour<br /> des mises à niveau écoénergétiques importantes.</p>
+      <p begin="146.24s" xml:id="p38" end="150.38s">Il peut s’agir de bâtiments<br />ciblés en matière d’améliorations énergétiques</p>
+      <p begin="150.38s" xml:id="p39" end="153.54s">et ces derniers peuvent générer des économies significatives</p>
+      <p begin="153.54s" xml:id="p40" end="156.04s">suite à l'installation de nouveaux équipements.</p>
+      <p begin="156.04s" xml:id="p41" end="161.54s">Les bâtiments ayant une cote entre 25 et<br />50 peuvent nécessiter une combinaison d’améliorations</p>
+      <p begin="161.55s" xml:id="p42" end="167.3s">et de petits ajustements. Les bâtiments dont<br />la cote est entre 50 et 75 peuvent bénéficier</p>
+      <p begin="167.3s" xml:id="p43" end="171.12s">de l’amélioration de l’éclairage et<br />des contrôles du bâtiment ou de la remise</p>
+      <p begin="171.12s" xml:id="p44" end="176.62s">en service des systèmes. La remise en service<br />est un processus de ré-optimisation périodique</p>
+      <p begin="176.62s" xml:id="p45" end="180.6s">mené tous les trois à cinq ans.<br />Les bâtiments dont la cote est supérieure</p>
+      <p begin="180.6s" xml:id="p46" end="186.44s">à 75 se situent dans les 25 premiers centiles.<br />Il est possible d’apporter des améliorations</p>
+      <p begin="186.44s" xml:id="p47" end="191.3s">grâce à la formation des locataires, à<br />une mise en service continue et à la mise</p>
+      <p begin="191.3s" xml:id="p48" end="194.82s">en place d’une stratégie de réduction<br />de la charge de branchement.</p>
+      <p begin="194.82s" xml:id="p49" end="199.65s">La mise en service continue est un processus<br />permanent qui fait souvent appel à l’analyse</p>
+      <p begin="199.65s" xml:id="p50" end="203.96s">de données en utilisant un logiciel de détection<br />des défaillances.</p>
+      <p begin="204.9s" xml:id="p51" end="209.64s">Même s’il est possible de suivre et d’évaluer<br />la consommation d’énergie, les émissions</p>
+      <p begin="209.64s" xml:id="p52" end="214.44s">de gaz à effet de serre ainsi que la consommation<br />de l’eau de toutes les installations grâce</p>
+      <p begin="214.44s" xml:id="p53" end="219.93s">à ENERGY STAR Portfolio Manager, seuls sept<br />types de bâtiments sont actuellement admissibles</p>
+      <p begin="219.93s" xml:id="p54" end="223.66s">pour obtenir une cote ENERGY STAR :<br />Les patinoires,</p>
+      <p begin="223.66s" xml:id="p55" end="227.46s">Les écoles du préscolaire au secondaire,<br />les centres médicaux,</p>
+      <p begin="227.46s" xml:id="p56" end="229.86s">les hôpitaux,<br />les supermarchés,</p>
+      <p begin="229.86s" xml:id="p57" end="233.24s">les immeubles de bureaux, et<br />les milieux de soins pour aînés.</p>
+      <p begin="233.24s" xml:id="p58" end="237.3s">RNCan élabore de nouvelles cotes sur une<br />base progressive;</p>
+      <p begin="237.3s" xml:id="p59" end="240.4s">votre type de bâtiment pourrait être le prochain!</p>
+      <p begin="241.0s" xml:id="p60" end="244.76s">Si un bâtiment n’est pas admissible à une cote ENERGY STAR,</p>
+      <p begin="244.76s" xml:id="p61" end="248.04s">il est toujours possible<br />de démontrer son efficacité énergétique</p>
+      <p begin="248.04s" xml:id="p62" end="253.19s">supérieure grâce au deuxième indicateur<br />essentiel de rendement, soit une amélioration</p>
+      <p begin="253.19s" xml:id="p63" end="259.1s">de l’efficacité énergétique de 30 %<br />selon la norme actuelle ASHRAE 90.1.</p>
+      <p begin="259.1s" xml:id="p64" end="263.95s">Cette solution nécessite qu’une simulation<br />de la consommation d’énergie soit effectuée</p>
+      <p begin="263.95s" xml:id="p65" end="267.96s">afin de déterminer l’efficacité énergétique<br />réelle du bâtiment.</p>
+      <p begin="267.96s" xml:id="p66" end="272.64s">La norme ASHRAE 90.1 est une norme nationale des États-Unis</p>
+      <p begin="272.64s" xml:id="p67" end="275.19s">qui fournit un minimum d’exigences concernant</p>
+      <p begin="275.19s" xml:id="p68" end="277.68s">les éléments écoénergétiques des bâtiments,</p>
+      <p begin="277.68s" xml:id="p69" end="281.14s">à l’exception des immeubles d’habitations de faible hauteur.</p>
+      <p begin="281.14s" xml:id="p70" end="285.36s">Pour les bâtiments existants,<br />les gestionnaires de l’énergie peuvent utiliser</p>
+      <p begin="285.36s" xml:id="p71" end="291.48s">divers logiciels tel que CAN-Quest<br />pour le comparer à la norme 90.1 la plus récente.</p>
+      <p begin="291.48s" xml:id="p72" end="295.04s">Pour ce qui est des bâtiments neufs,<br />les gestionnaires d’installation devraient</p>
+      <p begin="295.04s" xml:id="p73" end="299.56s">examiner les documents de conception et de<br />mise en service au dossier. Une analyse de</p>
+      <p begin="299.56s" xml:id="p74" end="304.92s">la consommation d’énergie a-t-elle été<br />effectuée? Si oui, quels ont été les résultats?</p>
+      <p begin="304.92s" xml:id="p75" end="309.84s">Pour les bâtiments faisant l’objet d’importantes<br />rénovations, les gestionnaires d’installation</p>
+      <p begin="309.84s" xml:id="p76" end="312.9s">devraient demander à leur fournisseur de<br />services écoénergétiques</p>
+      <p begin="312.9s" xml:id="p77" end="315.66s">si des économies ont déjà été calculées.</p>
+      <p begin="315.66s" xml:id="p78" end="319.72s">Il est possible de démontrer une réussite<br />dans ce domaine en utilisant les rapports</p>
+      <p begin="319.73s" xml:id="p79" end="324.43s">de la simulation de la consommation d’énergie,<br />ou une autre forme de modèle de consommation</p>
+      <p begin="324.43s" xml:id="p80" end="329.56s">de l’énergie qui confirme une efficacité<br />énergétique supérieure de 30 % à ce que</p>
+      <p begin="329.56s" xml:id="p81" end="333.0s">précise la norme ASHRAE 90.1.</p>
+      <p begin="334.06s" xml:id="p82" end="336.42s">L’amélioration de l’efficacité énergétique</p>
+      <p begin="336.42s" xml:id="p83" end="341.24s">dans les charges de branchement est un bon<br />exemple de l’application de ce principe.</p>
+      <p begin="341.24s" xml:id="p84" end="345.66s">L’énergie consommée par les charges de branchement est l’une des plus importantes utilisations</p>
+      <p begin="345.66s" xml:id="p85" end="350.68s">finales de l'énergie augmentant le plus rapidement<br />dans le secteur des bâtiments commerciaux.</p>
+      <p begin="350.68s" xml:id="p86" end="354.43s">L’examen des possibilités<br />visant à réduire les charges de branchement</p>
+      <p begin="354.43s" xml:id="p87" end="358.72s">peut aboutir à des solutions à bas prix<br />pour diminuer la consommation d’énergie.</p>
+      <p begin="358.72s" xml:id="p88" end="363.42s">Les salles de repos, les appareils électroniques<br />de bureau et les centres de données sont</p>
+      <p begin="363.42s" xml:id="p89" end="368.18s">les premiers candidats à examiner lorsqu’on<br />cherche à diminuer les charges de branchement.</p>
+      <p begin="368.18s" xml:id="p90" end="372.42s">Diminuer ces charges permettra d’atteindre<br />les objectifs en matière d’efficacité</p>
+      <p begin="372.42s" xml:id="p91" end="375.32s">énergétique de ces installations.</p>
+    </div>
+  </body>
+</tt>

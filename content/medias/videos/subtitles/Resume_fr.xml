@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.42s" xml:id="p0" end="2.74s">Ce cours fournit un aperçu des principes</p>
+      <p begin="2.74s" xml:id="p1" end="7.76s">directeurs et des pratiques exemplaires concernant<br />l’optimisation du rendement énergétique</p>
+      <p begin="7.76s" xml:id="p2" end="9.35s">des bâtiments existants.</p>
+      <p begin="9.35s" xml:id="p3" end="16.289s">Les quatre principes directeurs sont les suivants:<br />le mesurage, l’analyse comparative, l’efficacité</p>
+      <p begin="16.289s" xml:id="p4" end="19.789s">énergétique et l’énergie renouvelable<br />et propre.</p>
+      <p begin="19.789s" xml:id="p5" end="23.92s">Ces principes directeurs représentent le<br />fondement de l’approche à adopter dans</p>
+      <p begin="23.92s" xml:id="p6" end="28.68s">le but d’optimiser le rendement énergétique.<br />Nous avons également découvert des outils</p>
+      <p begin="28.68s" xml:id="p7" end="34.2s">logiciels comme ENERGY STAR Portfolio Manager<br />et RETScreen, ainsi que l’aide qu’ils</p>
+      <p begin="34.2s" xml:id="p8" end="38.8s">pouvaient nous apporter dans l’optimisation<br />du rendement énergétique.</p>
+      <p begin="38.8s" xml:id="p9" end="43.74s">RNCan et d’autres organismes fédéraux<br />fournissent d’importantes ressources,</p>
+      <p begin="43.74s" xml:id="p10" end="49.34s">de l’aide et de la formation dans les domaines<br />relatifs à l’optimisation du rendement énergétique.</p>
+      <p begin="49.34s" xml:id="p11" end="51.48s">Exemples de ressources proposées :</p>
+      <p begin="51.48s" xml:id="p12" end="56.22s">-Le Cadre pancanadien sur la croissance<br />propre et les changements climatiques</p>
+      <p begin="56.22s" xml:id="p13" end="60.46s">-La Stratégie fédérale de développement durable (SFDD)</p>
+      <p begin="60.46s" xml:id="p14" end="63.22s">-La Stratégie pour un gouvernement vert</p>
+      <p begin="63.22s" xml:id="p15" end="68.86s">Consulter également la publication de RNCan<br />intitulée Guide des pratiques exemplaires</p>
+      <p begin="68.86s" xml:id="p16" end="73.96s">en matière de gestion de l’énergie – Bâtiments<br />commerciaux et institutionnels.</p>
+      <p begin="73.96s" xml:id="p17" end="78.42s">Ces ressources peuvent permettre d’en apprendre davantage sur les engagements actifs du gouvernement</p>
+      <p begin="78.42s" xml:id="p18" end="84.54s">fédéral concernant les changements climatiques<br />et les stratégies visant à atteindre les objectifs.</p>
+      <p begin="85.3s" xml:id="p19" end="88.58s">Enfin, si vous avez des questions sur l’optimisation</p>
+      <p begin="88.59s" xml:id="p20" end="93.18s">du rendement énergétique des bâtiments<br />existants ou êtes intéressé par d’autres</p>
+      <p begin="93.19s" xml:id="p21" end="97.36s">possibilités de formation, n’hésitez pas<br />à communiquer avec l’Office de l’efficacité</p>
+      <p begin="97.36s" xml:id="p22" end="99.62s">énergétique aux coordonnées fournies.</p>
+      <p begin="99.62s" xml:id="p23" end="102.08s">Notre adresse courriel est la suivante :</p>
+      <p begin="102.08s" xml:id="p24" end="110.48s">nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca</p>
+      <p begin="110.48s" xml:id="p25" end="112.56s">Notre site Web se trouve à l’adresse :</p>
+      <p begin="112.56s" xml:id="p26" end="119.18s">http://www.rncan.gc.ca/gouvernementvert</p>
+      <p begin="119.18s" xml:id="p27" end="122.32s">Nous vous remercions de votre participation!</p>
+      <p begin="122.74s" xml:id="p28" end="127.58s">Nous allons maintenant vérifier ce que nous<br />avons appris grâce à un questionnaire.</p>
+      <p begin="128.26s" xml:id="p29" end="130.94s">Question 1 : Lequel des quatre principes</p>
+      <p begin="130.94s" xml:id="p30" end="136.18s">directeurs concerne l’amélioration du rendement<br />énergétique d’éléments ou de systèmes</p>
+      <p begin="136.18s" xml:id="p31" end="138.36s">particuliers d’un bâtiment?</p>
+      <p begin="138.36s" xml:id="p32" end="140.9s">A. Efficacité énergétique</p>
+      <p begin="140.9s" xml:id="p33" end="144.02s">B. Énergie renouvelable et propre</p>
+      <p begin="144.02s" xml:id="p34" end="146.02s">C. Mesurage</p>
+      <p begin="146.02s" xml:id="p35" end="148.48s">D. Analyse comparative</p>
+      <p begin="149.32s" xml:id="p36" end="153.24s">La bonne réponse est « A », Efficacité énergétique.</p>
+      <p begin="153.96s" xml:id="p37" end="156.78s">Question 2 : Quelle est la cote minimale</p>
+      <p begin="156.78s" xml:id="p38" end="162.74s">du rendement énergétique requise pour qu’un<br />bâtiment puisse obtenir la certification ENERGY STAR?</p>
+      <p begin="162.74s" xml:id="p39" end="165.2s">A. 55,</p>
+      <p begin="165.2s" xml:id="p40" end="167.62s">B. 65</p>
+      <p begin="167.62s" xml:id="p41" end="170.16s">C. 75</p>
+      <p begin="170.16s" xml:id="p42" end="172.2s">D. 85</p>
+      <p begin="172.2s" xml:id="p43" end="178.48s">La bonne réponse est « C », une cote ENERGY STAR<br />minimale de 75 est nécessaire.</p>
+      <p begin="179.28s" xml:id="p44" end="185.32s">Question 3 : Lequel des principaux indicateurs<br />de rendement suivants concerne l’efficacité</p>
+      <p begin="185.32s" xml:id="p45" end="187.1s">énergétique d’un bâtiment?</p>
+      <p begin="187.1s" xml:id="p46" end="191.72s">A. Obtenir une cote ENERGY STAR d’au moins 75.</p>
+      <p begin="191.72s" xml:id="p47" end="194.78s">B. La consommation d’énergie est supérieure</p>
+      <p begin="194.78s" xml:id="p48" end="200.66s">de 30 % à la consommation d’énergie de<br />référence pour l’exercice financier de 2003.</p>
+      <p begin="200.66s" xml:id="p49" end="207.92s">C. L’efficacité énergétique est 30 % supérieure<br />à la norme actuelle ASHRAE 90.1.</p>
+      <p begin="207.92s" xml:id="p50" end="210.3s">D. A et B</p>
+      <p begin="210.3s" xml:id="p51" end="212.78s">E. A et C</p>
+      <p begin="212.78s" xml:id="p52" end="216.56s">La bonne réponse est « E », A et C.</p>
+      <p begin="217.42s" xml:id="p53" end="223.4s">Question 4 : Peut-on utiliser la modélisation<br />énergétique pour démontrer une amélioration</p>
+      <p begin="223.4s" xml:id="p54" end="229.14s">du rendement énergétique supérieure à<br />la norme actuelle ASHRAE 90.1?</p>
+      <p begin="229.14s" xml:id="p55" end="232.64s">A. Oui<br />B. Non</p>
+      <p begin="232.64s" xml:id="p56" end="236.02s">La bonne réponse est « A », Oui.</p>
+      <p begin="236.96s" xml:id="p57" end="239.96s">Question 5 : Peut-on utiliser l’achat</p>
+      <p begin="239.96s" xml:id="p58" end="244.66s">de crédits d’énergie renouvelable pour<br />respecter le principe directeur concernant</p>
+      <p begin="244.66s" xml:id="p59" end="246.9s">l’énergie renouvelable et propre?</p>
+      <p begin="246.9s" xml:id="p60" end="250.3s">A. Oui<br />B. Non</p>
+      <p begin="250.3s" xml:id="p61" end="253.4s">La bonne réponse est « A », Oui.</p>
+      <p begin="254.0s" xml:id="p62" end="260.28s">Question 6 : Une vérification de la consommation<br />d’énergie de tout un bâtiment représente</p>
+      <p begin="260.28s" xml:id="p63" end="265.08s">le point de départ du principe directeur<br />relatif à l’analyse comparative.</p>
+      <p begin="265.08s" xml:id="p64" end="268.62s">A. Vrai<br />B. Faux</p>
+      <p begin="268.62s" xml:id="p65" end="273.9s">La bonne réponse est « B », Faux. Une<br />vérification de la consommation d’énergie</p>
+      <p begin="273.9s" xml:id="p66" end="277.32s">est relative à l’efficacité énergétique.</p>
+      <p begin="277.32s" xml:id="p67" end="280.92s">Question 7 : Un système d’énergie renouvelable</p>
+      <p begin="280.92s" xml:id="p68" end="285.92s">non relié au réseau et ne desservant qu’un<br />seul bâtiment en particulier n’est pas</p>
+      <p begin="285.92s" xml:id="p69" end="291.4s">recommandé conformément au principe directeur<br />concernant l’énergie renouvelable et propre.</p>
+      <p begin="291.4s" xml:id="p70" end="294.92s">A. Vrai<br />B. Faux</p>
+      <p begin="295.52s" xml:id="p71" end="298.48s">La bonne réponse est « B », Faux.</p>
+      <p begin="299.08s" xml:id="p72" end="302.48s">Question 8 : Lequel des principes directeurs</p>
+      <p begin="302.48s" xml:id="p73" end="308.0s">devrait être appliqué en premier dans l’optimisation<br />du rendement énergétique d’un bâtiment existant?</p>
+      <p begin="308.0s" xml:id="p74" end="310.68s">A. Mesurage</p>
+      <p begin="310.68s" xml:id="p75" end="313.72s">B. Analyse comparative</p>
+      <p begin="313.72s" xml:id="p76" end="316.94s">C. Efficacité énergétique</p>
+      <p begin="316.94s" xml:id="p77" end="320.08s">D. Énergie renouvelable et propre</p>
+      <p begin="320.08s" xml:id="p78" end="323.2s">La bonne réponse est « A », Mesurage.</p>
+      <p begin="323.2s" xml:id="p79" end="328.28s">Le mesurage est la première étape dans l’optimisation<br />du rendement énergétique, car il vous permet</p>
+      <p begin="328.28s" xml:id="p80" end="331.73s">de mesurer la consommation d’énergie de<br />référence.</p>
+      <p begin="332.78s" xml:id="p81" end="337.72s">Question 9 : Quel est l’objectif national<br />en matière de réduction des émissions de</p>
+      <p begin="337.72s" xml:id="p82" end="342.26s">GES fixé dans la Stratégie fédérale de<br />développement durable?</p>
+      <p begin="342.26s" xml:id="p83" end="351.56s">A. Réduire de 50 % par rapport aux niveaux<br />de 2005 d’ici 2030, et de 60 % d’ici 2050</p>
+      <p begin="351.56s" xml:id="p84" end="360.82s">B. Réduire de 40 % par rapport aux niveaux<br />de 2005 d’ici 2030, et de 80 % d’ici 2050</p>
+      <p begin="360.82s" xml:id="p85" end="370.76s">C. Réduire de 20 % par rapport aux niveaux<br />de 2005 d’ici 2030, et de 70 % d’ici 2050</p>
+      <p begin="370.76s" xml:id="p86" end="373.1s">La bonne réponse est « B »,</p>
+      <p begin="373.1s" xml:id="p87" end="381.68s">Réduire de 40 % par rapport aux niveaux<br />de 2005 d’ici 2030, et de 80 % d’ici 2050</p>
+      <p begin="381.69s" xml:id="p88" end="387.679s">Question 10 : Quel principe directeur concerne<br />la pratique exemplaire de remise en service</p>
+      <p begin="387.68s" xml:id="p89" end="392.47s">de systèmes de bâtiments visant à garantir<br />leur fonctionnement optimal?</p>
+      <p begin="392.47s" xml:id="p90" end="395.44s">A. Efficacité énergétique</p>
+      <p begin="395.44s" xml:id="p91" end="398.82s">B. Énergie renouvelable et propre</p>
+      <p begin="398.82s" xml:id="p92" end="401.52s">C. Analyse comparative</p>
+      <p begin="401.52s" xml:id="p93" end="404.12s">D. Mesurage</p>
+      <p begin="404.12s" xml:id="p94" end="408.52s">La bonne réponse est « A », Efficacité<br />énergétique.</p>
+      <p begin="409.22s" xml:id="p95" end="413.74s">Si vous avez des questions sur l’optimisation<br />du rendement énergétique des bâtiments</p>
+      <p begin="413.74s" xml:id="p96" end="418.48s">existants, n’hésitez pas à communiquer<br />avec l’Office de l’efficacité énergétique</p>
+      <p begin="418.48s" xml:id="p97" end="422.62s">aux coordonnées fournies.<br />Notre adresse courriel est la suivante :</p>
+      <p begin="422.62s" xml:id="p98" end="430.08s">nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca</p>
+      <p begin="430.08s" xml:id="p99" end="432.44s">Notre site Web se trouve à l’adresse :</p>
+      <p begin="432.44s" xml:id="p100" end="437.14s">http://www.rncan.gc.ca/gouvernementvert</p>
+      <p begin="437.14s" xml:id="p101" end="440.78s">Merci encore une fois pour votre participation!</p>
+    </div>
+  </body>
+</tt>

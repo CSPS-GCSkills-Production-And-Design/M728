@@ -1,0 +1,60 @@
+<h1>Introduction</h1>
+<div class="col-md-12">
+    <div class="instructions">
+        <div class="circle_icon video"></div>
+        <p class="content">Visionnez la vidéo suivante, qui offre une introduction au cours.</p>
+    </div>
+    <div class="video_player col-sm-10 col-sm-offset-1">
+        <div class="ipad-camera"></div>
+        <figure class="wb-mltmd col-sm-10  col-sm-offset-1">
+            <video poster="content/medias/videos/posters/Intro_fr.jpg" tabindex="-1" title="Introduction">
+                <source type="video/mp4" src="https://video.csps-efpc.gc.ca/p/101/sp/10100/playManifest/entryId/0_j7rvm2xv/flavorId/0_jf0lyqig/format/url/protocol/https/a.mp4" />
+                <track data-type="text/ttml+xml" kind="captions" label="French" src="content/medias/videos/subtitles/Intro_fr.xml" srclang="fr">
+            </video>
+            <figcaption>
+                <div class="accordion vertical">
+                    <details id="inline-captions">
+                        <summary><span class="glyphicon glyphicon-plus"></span>Transcription</summary>
+                        <div class="tgl-panel">
+                            <h2>Introduction - Transcription de la vidéo</h2>
+                            <p>Bonjour à tous et bienvenue au module de formation en ligne de Ressources naturelles Canada sur l’optimisation du rendement énergétique des bâtiments existants.</p>
+                            <p>Ce cours a été adapté à partir des documents de formation du programme fédéral de gestion de l’énergie du département de l’Énergie des États-Unis portant sur l’optimisation du rendement énergétique des bâtiments existants. La présente formation est offerte par les Services pour un gouvernement vert de Ressources naturelles Canada qui a pour objet d’aider les ministères et organismes fédéraux à planifier et à mettre en œuvre des projets qui permettent de réduire l’utilisation d’énergie et les émissions de gaz à effet de serre (GES) dans leurs bâtiments, laboratoires, autres installations et parcs de véhicules.</p>
+                            <p>Au fil des ans, Ressources naturelles Canada a réussi à mettre au point des méthodes, des pratiques et des outils complets pour réduire la consommation énergétique et les émissions de gaz à effet de serre dans les secteurs privé et public, y compris le gouvernement fédéral.</p>
+                            <p>Depuis 1991, RNCan propose également un soutien technique élargi aux organismes du gouvernement du Canada qui cherchent à poser des actes ambitieux en vue de réduire les émissions de gaz à effet de serre des activités de leurs bâtiments et de leurs flottes de véhicules.</p>
+                            <p>Cette formation fournira un appui aux organismes fédéraux afin qu’ils respectent leurs engagements et donnent l’exemple. Comme l’indiquent la Stratégie fédérale de développement durable 2016-2019 et la Stratégie pour un gouvernement vert, le gouvernement fédéral s’est engagé à réduire de 40 % les émissions générées par ses activités par rapport aux niveaux de 2005 d’ici 2030, et de 80 % d’ici 2050.</p>
+                            <p>Il est important de noter que les bâtiments fédéraux représentent presque 90 % des émissions de GES du gouvernement.</p>
+							<p>Cette initiative appuie également l’engagement des premiers ministres canadiens des gouvernements fédéral, provinciaux et territoriaux en vue d’intensifier leurs efforts pour passer à des bâtiments à haut rendement énergétique et à des flottes de véhicules à émission zéro, comme le prévoit le Cadre pancanadien sur la croissance propre et les changements climatiques.</p>
+                            <p>L’objectif ultime de cette formation est de présenter les étapes successives menant à l’optimisation du rendement énergétique des bâtiments existants.</p>
+							<p>Le cours se déroulera de manière à présenter les quatre principes directeurs devant être suivis de manière séquentielle pour optimiser la performance énergétique des bâtiments existants.</p>
+							<p>Chaque principe directeur sera accompagné des meilleures pratiques et des mesures associées afin de fournir des orientations sur les actions pouvant être prises pour respecter le principe directeur en question. Certains principes directeurs concernent l’engagement pris par le gouvernement fédéral dans le cadre de la Stratégie pour un gouvernement vert. Ces engagements seront indiqués le cas échéant.</p>
+							<p>Les quatre principes directeurs sont les suivants : </p>
+							<ul>
+								<li>le mesurage;</li>
+								<li>l’analyse comparative;</li>
+								<li>l’efficacité énergétique;</li>
+								<li>l’énergie renouvelable et propre.</li>
+							</ul>
+                        </div>
+                    </details>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="clearfix"></div>
+    <div class="transcript-clearfix"></div>
+</div>
+<script>
+$(".video_player figcaption details").on("toggle", function() {
+    if ($(this).prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    } else {
+        $(".transcript-clearfix").css({ marginTop: 0 });
+    }
+});
+
+$(window).resize(function() {
+    if ($(".video_player figcaption details").prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    }
+});
+</script>

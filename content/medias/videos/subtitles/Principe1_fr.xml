@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="1.56s" xml:id="p0" end="4.9s">Le premier principe directeur concerne le mesurage.</p>
+      <p begin="4.9s" xml:id="p1" end="8.099s">Le mesurage consiste à enregistrer la quantité</p>
+      <p begin="8.099s" xml:id="p2" end="12.7s">d’énergie consommée dans une installation.<br />Même si la plupart des services utilisés</p>
+      <p begin="12.7s" xml:id="p3" end="17.68s">dans un bâtiment ou sur un site sont mesurés<br />à des fins de facturation, il est possible</p>
+      <p begin="17.68s" xml:id="p4" end="21.8s">de mieux comprendre comment l'énergie est<br />consommée dans un bâtiment en installant</p>
+      <p begin="21.8s" xml:id="p5" end="25.379s">des compteurs supplémentaires sur des composants<br />spécifiques.</p>
+      <p begin="25.38s" xml:id="p6" end="29.92s">En mesurant l’utilisation par bâtiment<br />et par service plutôt que par groupe,</p>
+      <p begin="29.92s" xml:id="p7" end="34.94s">les gestionnaires de l’énergie peuvent plus<br />facilement identifier les opportunités d'amélioration.</p>
+      <p begin="34.94s" xml:id="p8" end="39.25s">Les pratiques exemplaires dictent qu’au<br />minimum, des compteurs d’électricité,</p>
+      <p begin="39.25s" xml:id="p9" end="43.67s">de gaz naturel et de vapeur doivent être<br />installés dans chaque bâtiment. Il peut s’agir</p>
+      <p begin="43.67s" xml:id="p10" end="48.45s">de compteurs avancés ou classiques,<br />selon le degré de précision nécessaire.</p>
+      <p begin="48.45s" xml:id="p11" end="52.89s">La Stratégie pour un gouvernement vert précise<br />que tous les ministères doivent mesurer leur</p>
+      <p begin="52.89s" xml:id="p12" end="57.52s">consommation d’énergie et faire un rapport<br />sur leur intensité énergétique d’ici</p>
+      <p begin="57.52s" xml:id="p13" end="62.62s">2022 pour les bâtiments d’au moins 1 000 mètres<br />carrés appartenant au gouvernement.</p>
+    </div>
+  </body>
+</tt>

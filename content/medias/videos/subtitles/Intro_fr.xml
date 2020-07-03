@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="4.32s" xml:id="p0" end="7.74s">Bonjour à tous et bienvenue au module de<br />formation en ligne de</p>
+      <p begin="7.74s" xml:id="p1" end="9.72s">Ressources naturelles Canada</p>
+      <p begin="9.72s" xml:id="p2" end="13.58s">sur l’optimisation du rendement énergétique<br />des bâtiments existants.</p>
+      <p begin="15.48s" xml:id="p3" end="20.62s">Ce cours a été adapté à partir des documents<br />de formation du programme fédéral de gestion</p>
+      <p begin="20.63s" xml:id="p4" end="25.41s">de l’énergie du département de l’Énergie<br />des États-Unis portant sur l’optimisation</p>
+      <p begin="25.41s" xml:id="p5" end="28.34s">du rendement énergétique des bâtiments<br />existants.</p>
+      <p begin="28.34s" xml:id="p6" end="32.72s">La présente formation est offerte par les<br />Services pour un gouvernement vert de</p>
+      <p begin="32.72s" xml:id="p7" end="37.7s">Ressources naturelles Canada qui a pour objet d’aider<br />les ministères et organismes fédéraux à</p>
+      <p begin="37.7s" xml:id="p8" end="43.06s">planifier et à mettre en œuvre des projets<br />qui permettent de réduire l’utilisation d’énergie</p>
+      <p begin="43.06s" xml:id="p9" end="48.68s">et les émissions de gaz à effet<br />de serre (GES) dans leurs bâtiments, laboratoires,</p>
+      <p begin="48.68s" xml:id="p10" end="51.46s">autres installations et parcs de véhicules.</p>
+      <p begin="52.64s" xml:id="p11" end="55.4s">Au fil des ans, Ressources naturelles Canada</p>
+      <p begin="55.4s" xml:id="p12" end="59.6s">a réussi à mettre au point des méthodes,<br />des pratiques et des outils complets pour</p>
+      <p begin="59.61s" xml:id="p13" end="63.729s">réduire la consommation énergétique et<br />les émissions de gaz à effet de serre dans</p>
+      <p begin="63.729s" xml:id="p14" end="67.73s">les secteurs privé et public, y compris le<br />gouvernement fédéral.</p>
+      <p begin="67.73s" xml:id="p15" end="74.5s">Depuis 1991, RNCan propose également un soutien<br />technique élargi aux organismes du gouvernement</p>
+      <p begin="74.5s" xml:id="p16" end="78.83s">du Canada qui cherchent à poser des actes<br />ambitieux en vue de réduire les émissions</p>
+      <p begin="78.83s" xml:id="p17" end="83.58s">de gaz à effet de serre des activités de<br />leurs bâtiments et de leurs flottes de véhicules.</p>
+      <p begin="83.58s" xml:id="p18" end="87.94s">Cette formation fournira un appui aux organismes<br />fédéraux afin qu’ils respectent</p>
+      <p begin="87.94s" xml:id="p19" end="90.48s">leurs engagements et donnent l’exemple.</p>
+      <p begin="90.48s" xml:id="p20" end="95.28s">Comme l’indiquent la Stratégie fédérale de développement durable 2016-2019</p>
+      <p begin="95.28s" xml:id="p21" end="97.78s">et la Stratégie pour un gouvernement vert,</p>
+      <p begin="97.78s" xml:id="p22" end="103.32s">le gouvernement fédéral s’est engagé à réduire de 40 %<br />les émissions générées par ses activités</p>
+      <p begin="103.32s" xml:id="p23" end="110.1s">par rapport aux niveaux de 2005 d’ici 2030,<br />et de 80 % d’ici 2050.</p>
+      <p begin="110.1s" xml:id="p24" end="114.9s">Il est important de noter que les bâtiments<br />fédéraux représentent presque 90 % des</p>
+      <p begin="114.909s" xml:id="p25" end="120.42s">émissions de GES du gouvernement. Cette initiative<br />appuie également l’engagement des premiers</p>
+      <p begin="120.42s" xml:id="p26" end="125.82s">ministres canadiens des gouvernements fédéral,<br />provinciaux et territoriaux en vue d’intensifier</p>
+      <p begin="125.82s" xml:id="p27" end="129.8s">leurs efforts pour passer à des bâtiments<br />à haut rendement énergétique et à des</p>
+      <p begin="129.81s" xml:id="p28" end="134.62s">flottes de véhicules à émission zéro,<br />comme le prévoit le Cadre pancanadien sur</p>
+      <p begin="134.62s" xml:id="p29" end="137.72s">la croissance propre et les changements climatiques.</p>
+      <p begin="139.08s" xml:id="p30" end="141.3s">L’objectif ultime de cette formation est</p>
+      <p begin="141.3s" xml:id="p31" end="146.0s">de présenter les étapes successives menant<br />à l’optimisation du rendement énergétique</p>
+      <p begin="146.0s" xml:id="p32" end="147.58s">des bâtiments existants.</p>
+      <p begin="147.58s" xml:id="p33" end="152.319s">Le cours se déroulera de manière à présenter<br />les quatre principes directeurs devant être suivis</p>
+      <p begin="152.32s" xml:id="p34" end="158.14s">de manière séquentielle pour optimiser<br />la performance énergétique des bâtiments existants.</p>
+      <p begin="158.14s" xml:id="p35" end="163.0s">Chaque principe directeur sera accompagné<br />des meilleures pratiques et des mesures associées</p>
+      <p begin="163.0s" xml:id="p36" end="166.66s">afin de fournir des orientations sur les actions<br />pouvant être prises</p>
+      <p begin="166.66s" xml:id="p37" end="169.5s">pour respecter le directeur principe en question.</p>
+      <p begin="169.5s" xml:id="p38" end="172.4s">Certains principes directeurs concernent l’engagement</p>
+      <p begin="172.4s" xml:id="p39" end="176.88s">pris par le gouvernement fédéral dans le<br />cadre de la Stratégie pour un gouvernement vert.</p>
+      <p begin="176.88s" xml:id="p40" end="179.94s">Ces engagements seront indiqués le<br />cas échéant.</p>
+      <p begin="179.94s" xml:id="p41" end="184.56s">Les quatre principes directeurs sont les suivants :<br />le mesurage,</p>
+      <p begin="184.56s" xml:id="p42" end="188.38s">l’analyse comparative,<br />l’efficacité énergétique et</p>
+      <p begin="188.38s" xml:id="p43" end="190.86s">l’énergie renouvelable et propre.</p>
+    </div>
+  </body>
+</tt>

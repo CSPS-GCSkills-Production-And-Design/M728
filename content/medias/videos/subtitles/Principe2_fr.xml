@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.64s" xml:id="p0" end="4.44s">Maintenant que le rendement énergétique<br />d’un bâtiment est suivi dans le temps,</p>
+      <p begin="4.44s" xml:id="p1" end="7.98s">l’équipe de l’installation peut passer<br />à l’analyse comparative.</p>
+      <p begin="7.98s" xml:id="p2" end="10.68s">Il s’agit du deuxième principe directeur</p>
+      <p begin="10.68s" xml:id="p3" end="14.62s">visant à optimiser le rendement énergétique<br />dans les bâtiments existants.</p>
+      <p begin="14.62s" xml:id="p4" end="16.68s">L’établissement d’une base de référence</p>
+      <p begin="16.68s" xml:id="p5" end="20.629s">du rendement énergétique est le point de<br />départ de l’analyse comparative.</p>
+      <p begin="20.629s" xml:id="p6" end="25.159s">Une fois qu’on a compris comment est consommée<br />l’énergie dans un bâtiment, l’équipe</p>
+      <p begin="25.159s" xml:id="p7" end="29.919s">de l’installation peut utiliser ces renseignements<br />pour établir les projets d’amélioration</p>
+      <p begin="29.92s" xml:id="p8" end="31.6s">par ordre de priorité.</p>
+      <p begin="31.6s" xml:id="p9" end="36.1s">On peut calculer l’efficacité énergétique<br />d’un bâtiment grâce à une mesure appelée</p>
+      <p begin="36.1s" xml:id="p10" end="40.68s">« intensité énergétique » exprimée<br />en kWh/m2.</p>
+      <p begin="40.68s" xml:id="p11" end="45.74s">Ce concept permet de mesurer l’efficacité<br />énergétique au sein d’un bâtiment et de faire</p>
+      <p begin="45.74s" xml:id="p12" end="51.32s">une comparaison avec d’autres bâtiments<br />ayant la même taille et ayant le même type d’activités.</p>
+      <p begin="51.32s" xml:id="p13" end="55.3s">L’analyse comparative vise<br />essentiellement à améliorer l’intensité</p>
+      <p begin="55.3s" xml:id="p14" end="56.979s">énergétique d’un bâtiment.</p>
+      <p begin="56.979s" xml:id="p15" end="61.949s">L’analyse comparative peut être réalisée<br />au moyen de deux logiciels couramment utilisés</p>
+      <p begin="61.949s" xml:id="p16" end="63.58s">dans le secteur fédéral.</p>
+      <p begin="63.58s" xml:id="p17" end="68.52s">ENERGY STAR PORTFOLIO<br />MANAGER et RETScreen Expert sont les outils</p>
+      <p begin="68.52s" xml:id="p18" end="73.52s">privilégiés pour faire le suivi et la comparaison<br />de la consommation d’énergie d’un bâtiment</p>
+      <p begin="73.529s" xml:id="p19" end="78.74s">dans le temps. Les pratiques exemplaires de<br />l’analyse comparative dictent que les gestionnaires</p>
+      <p begin="78.74s" xml:id="p20" end="83.18s">d’installation doivent procéder à des<br />analyses comparatives du rendement énergétique</p>
+      <p begin="83.18s" xml:id="p21" end="88.419s">chaque année, en utilisant de préférence<br />PORTFOLIO MANAGER ou RETSCreen pour comparer</p>
+      <p begin="88.419s" xml:id="p22" end="91.68s">leur rendement réel à l’analyse comparative<br />établie.</p>
+      <p begin="91.68s" xml:id="p23" end="96.319s">Cela suppose qu’un contrôle régulier du<br />rendement énergétique des bâtiments soit</p>
+      <p begin="96.319s" xml:id="p24" end="100.4s">réalisé par rapport à l’historique des<br />rendements et aux bâtiments semblables.</p>
+      <p begin="100.4s" xml:id="p25" end="104.98s">Le gouvernement du Canada s’engage à rendre<br />compte de son rendement environnemental en</p>
+      <p begin="104.98s" xml:id="p26" end="108.52s">appliquant les principes de transparence et<br />de données ouvertes.</p>
+      <p begin="108.52s" xml:id="p27" end="110.16s">Il est possible de démontrer</p>
+      <p begin="110.16s" xml:id="p28" end="115.16s">la mise en œuvre adéquate au sein des installations<br />en utilisant les documents d’ENERGY STAR</p>
+      <p begin="115.169s" xml:id="p29" end="119.77s">Portfolio Manager ou de RETScreen.<br />Les types de propriétés qui ne sont pas</p>
+      <p begin="119.77s" xml:id="p30" end="124.36s">éligibles pour un score ENERGY STAR peuvent<br />toujours générer des rapports indiquant</p>
+      <p begin="124.36s" xml:id="p31" end="129.26s">les propriétés de référence et les tendances<br />de la consommation d'énergie au fil du temps.</p>
+      <p begin="129.26s" xml:id="p32" end="134.189s">Les établissements qui choisissent de ne<br />pas utiliser Portfolio Manager peuvent définir</p>
+      <p begin="134.189s" xml:id="p33" end="138.76s">des points de référence et comparer leur<br />rendement énergétique à l'aide d'autres moyens,</p>
+      <p begin="138.76s" xml:id="p34" end="142.61s">tels que des données de facturation<br />des services publics ou des rapports internes</p>
+      <p begin="142.61s" xml:id="p35" end="144.7s">sur la consommation d’énergie.</p>
+      <p begin="145.62s" xml:id="p36" end="148.48s">ENERGY STAR Portfolio Manager est un outil</p>
+      <p begin="148.48s" xml:id="p37" end="153.36s">de gestion de l’énergie gratuit et interactif<br />qui permet aux utilisateurs d’effectuer</p>
+      <p begin="153.36s" xml:id="p38" end="158.819s">un suivi, une évaluation et une analyse comparative<br />de la consommation d’énergie et d’eau</p>
+      <p begin="158.82s" xml:id="p39" end="162.68s">pour tous les types d’installations compris<br />dans les portefeuilles de bâtiments.</p>
+      <p begin="162.68s" xml:id="p40" end="168.02s">Portfolio Manager utilise une mesure normalisée pour<br />comparer le rendement énergétique</p>
+      <p begin="168.02s" xml:id="p41" end="172.74s">de l’ensemble du bâtiment par rapport à des<br />bâtiments semblables de types particuliers</p>
+      <p begin="172.74s" xml:id="p42" end="175.36s">pour lesquels une « cote peut être attribuée ».</p>
+      <p begin="176.7s" xml:id="p43" end="179.56s">RETScreen expert est un autre outil permettant</p>
+      <p begin="179.56s" xml:id="p44" end="181.92s">d’effectuer des analyses comparatives.</p>
+      <p begin="181.92s" xml:id="p45" end="185.08s">Élaboré par le gouvernement du Canada,<br /> RETScreen Expert</p>
+      <p begin="185.08s" xml:id="p46" end="190.259s">est un logiciel d’analyse de la faisabilité<br />de projets relatifs à l’efficacité énergétique</p>
+      <p begin="190.259s" xml:id="p47" end="194.71s">et à l’énergie renouvelable ainsi qu’à<br />l’analyse du rendement énergétique continu.</p>
+      <p begin="194.71s" xml:id="p48" end="199.679s">Cet outil propose de nombreuses fonctions<br />et peut être utilisé afin:</p>
+      <p begin="199.679s" xml:id="p49" end="203.379s">de réaliser des analyses dans l’ensemble<br />du portefeuille</p>
+      <p begin="203.379s" xml:id="p50" end="209.49s">de recueillir des renseignements sur une installation<br />d’effectuer des analyses comparatives,</p>
+      <p begin="209.49s" xml:id="p51" end="214.8s">de faire un suivi de la consommation d’énergie<br />et des émissions de GES, ainsi que</p>
+      <p begin="214.8s" xml:id="p52" end="217.92s">de réaliser des analyses sur le rendement<br />général.</p>
+      <p begin="217.92s" xml:id="p53" end="222.68s">Largement utilisé au sein du gouvernement<br />et de l’industrie, cet outil est également</p>
+      <p begin="222.68s" xml:id="p54" end="225.839s">mis à profit par les principales entreprises<br />suivantes :</p>
+      <p begin="225.84s" xml:id="p55" end="228.76s">3M, CRH Canada,</p>
+      <p begin="228.76s" xml:id="p56" end="231.82s">Oxford Properties, Canadian Tire,</p>
+      <p begin="231.82s" xml:id="p57" end="236.74s">le Conseil des universités de l’Ontario,<br />le ministère de la Défense nationale,</p>
+      <p begin="236.74s" xml:id="p58" end="239.74s">Services publics et Approvisionnement Canada et,</p>
+      <p begin="239.74s" xml:id="p59" end="241.0s">Ressources naturelles Canada.</p>
+    </div>
+  </body>
+</tt>

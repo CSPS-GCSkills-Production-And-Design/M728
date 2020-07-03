@@ -1,0 +1,105 @@
+<section class="modal-dialog modal-content overlay-def mfp-with-anim mfp-zoom-in">
+    <header class="modal-header">
+        <h2 class="modal-title">Ressources</h2>
+        <button title="Fermer&nbsp;: Portable (touche d'échappement)" class="mfp-close overlay-close">×<span class="wb-inv"> Fermer&nbsp;: Portable (touche d'échappement)</span></button>
+    </header>
+    <div class="modal-body">
+        <div id="csps-Abbr">
+            <h2>Abréviations</h2>
+            <dl id="abbr-list">
+                <dt>RNCan</dt>
+                <dd>Ressources naturelles Canada</dd>
+            </dl>
+        </div>
+        <h2>Liens externes et descriptions</h2>
+        <div class="external-list hidden">
+            <dl>
+                <dt><a href="https://learn-apprendre.csps-efpc.gc.ca/application/fr/content/comment-imprimer-un-certificat-et-voir-vos-formations-completees" id="ext-wb-1" target="_blank">Instructions pour imprimer votre certificat sur GCCampus</a></dt>
+                <dd>Lien vers les instructions pour imprimer votre certificat sur GCcampus</dd>
+            </dl>
+        </div>
+        <div class="external-list">
+            <dl>
+                <dt><a href="https://www.canada.ca/fr/services/environnement/meteo/changementsclimatiques/cadre-pancanadien.html">Cadre pancanadien sur la croissance propre et les changements climatiques</a>, Gouvernement du Canada</dt>
+                <dd>Lien vers le Gouvernement du Canada</dd>
+                <dt><a href="https://www.fsds-sfdd.ca/index_fr.html#/fr/goals/">Stratégie fédérale de développement durable (SFDD)</a>, Ressources naturelles Canada</dt>
+                <dd>Lien vers Ressources naturelles Canada</dd>
+                <dt><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/innovation/ecologiser-gouvernement/strategie.html">Stratégie pour un gouvernement vert</a>, Secrétariat du Conseil du Trésor du Canada</dt>
+                <dd>Lien vers leSecrétariat du Conseil du Trésor du Canada</dd>
+                <dt><a href="https://www.nrcan.gc.ca/sites/www.nrcan.gc.ca/files/oee/files/pdf/publications/commerciaux/best_practices_f.pdf">Guide des pratiques exemplaires en matière de gestion de l’énergie – Bâtiments commerciaux et institutionnels</a>, Ressources naturelles Canada</dt>
+                <dd>Lien vers Ressources naturelles Canada</dd>
+                <dt><a href="https://www.rncan.gc.ca/energie/efficacite/batiments/analyse-comparative/3694?_ga=2.52329065.1112259727.1578413285-351076347.1570564928">ENERGY STAR Portfolio Manager</a>, Ressources naturelles Canada</dt>
+                <dd>Lien vers Ressources naturelles Canada</dd>
+                <dt><a href="https://www.rncan.gc.ca/cartes-outils-publications/outils/logiciels-danalyse-de-donnees-ou/retscreen/7466?_ga=2.52329065.1112259727.1578413285-351076347.1570564928">RETScreen</a>, Ressources naturelles Canada</dt>
+                <dd>Lien vers Ressources naturelles Canada</dd>
+            </dl>
+        </div>
+        <p>Si vous avez des questions concernant ce cours, veuillez communiquer avec l’Office de l’efficacité énergétique de Ressources naturelles Canada au sein des Services pour un gouvernement vert.</p>
+        <ul>
+            <li>Courriel : <a href="mailto:Nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca" title="Courriel">Nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca</a></li>
+            <li>Site internet : <a href="https://www.rncan.gc.ca/efficacite-energetique/efficacite-energetique-des-batiments/services-gouvernement-vert-rncan/3706" target="_blank" title="Site web">https://www.rncan.gc.ca/efficacite-energetique/efficacite-energetique-des-batiments/services-gouvernement-vert-rncan/3706</a></li>
+        </ul>
+    </div>
+    <script src="core/js/plugins/jquery-listnav.js"></script>
+    <link rel="stylesheet" href="core/js/plugins/listnav.css">
+</section>
+<script>
+$(document).ready(function() {
+    $('#abbr-list').listnav({
+        includeAll: false,
+        includeNums: false,
+        noMatchText: labels.glossary.emptyTerm,
+        showCounts: false
+    });
+
+    var abbrs = [];
+    var defs = []
+    $("#abbr-list dt").each(function() {
+        var str = $(this).html();
+        str = str.toLowerCase();
+        str = str.replace(/[àáâãäå]/g, "a");
+        str = str.replace(/[èéêë]/g, "e");
+        abbrs.push(str);
+    });
+    $("#abbr-list dd").each(function() {
+        var str = $(this).html();
+        str = str.toLowerCase();
+        str = str.replace(/[àáâãäå]/g, "a");
+        str = str.replace(/[èéêë]/g, "e");
+        defs.push(str);
+    });
+    console.log(abbrs);
+    console.log(defs);
+
+    var count = 1;
+    for (var i = 0; i < abbrs.length; i++) {
+        if (abbrs[i].charAt(0) != defs[i].charAt(0)) {
+            $("#abbr-list dd").eq(i).addClass("change").attr("data-change", count);
+            $("#abbr-list dt").eq(i).addClass("change" + count);
+            count++;
+        }
+    }
+
+    $("#abbr-list .change").each(function() {
+        var defClassList = $(this).attr("class").split(/\s+/);
+        var defLetterClass;
+        $.each(defClassList, function(index, item) {
+            if (item.substring(0, 3) == "ln-") {
+                defLetterClass = item;
+            }
+        });
+        defLetter = defLetterClass.charAt(3);
+
+        var $abbr = $(".change" + $(this).data("change"));
+        var abbrLetter = $abbr.html().charAt(0).toLowerCase();
+
+        $(this).removeClass(defLetterClass).addClass("ln-" + abbrLetter);
+        if ($(".ln-letters ." + abbrLetter).hasClass("ln-selected")) {
+            $(this).removeClass("listNavHide").addClass("listNavShow");
+        }
+        if ($(".ln-letters ." + defLetter).hasClass("ln-selected")) {
+            $(this).removeClass("listNavShow").addClass("listNavHide");
+        }
+    });
+});
+</script>

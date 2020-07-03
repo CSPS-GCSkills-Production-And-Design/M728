@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.0s" xml:id="p0" end="0.04s">and Natural Resources Canada.</p>
+      <p begin="1.97s" xml:id="p1" end="4.57s">After setting an energy<br />performance benchmark,</p>
+      <p begin="4.57s" xml:id="p2" end="7.18s">the next step is to develop<br />and evaluate options for</p>
+      <p begin="7.18s" xml:id="p3" end="9.38s">improving the energy<br />efficiency of a building.</p>
+      <p begin="9.38s" xml:id="p4" end="11.8s">There are three best practices<br />to follow when looking</p>
+      <p begin="11.8s" xml:id="p5" end="15.0s">to improve energy efficiency<br />as shown on the slide.</p>
+      <p begin="15.0s" xml:id="p6" end="17.76s">Implement these best practices<br />as applicable depending</p>
+      <p begin="17.76s" xml:id="p7" end="20.06s">on the age of the building,<br />the state of the current</p>
+      <p begin="20.06s" xml:id="p8" end="22.32s">operating conditions, and the availability</p>
+      <p begin="22.32s" xml:id="p9" end="25.06s">of information about energy using systems.</p>
+      <p begin="25.06s" xml:id="p10" end="27.34s">When there is little<br />information available on current</p>
+      <p begin="27.34s" xml:id="p11" end="30.45s">operating conditions, the first<br />best practice is to conduct</p>
+      <p begin="30.45s" xml:id="p12" end="33.275s">a building wide energy audit<br />to identify the major energy</p>
+      <p begin="33.275s" xml:id="p13" end="36.76s">users and uncover<br />opportunities for improvement.</p>
+      <p begin="36.76s" xml:id="p14" end="38.91s">If the building's energy<br />performance and operating</p>
+      <p begin="38.91s" xml:id="p15" end="41.227s">conditions are known, it might<br />be appropriate to implement</p>
+      <p begin="41.227s" xml:id="p16" end="45.11s">best practice number two, which<br />relates to recommissioning.</p>
+      <p begin="45.11s" xml:id="p17" end="47.69s">In fact, best practice<br />recommends performing</p>
+      <p begin="47.69s" xml:id="p18" end="50.62s">recommissioning every<br />five years to ensure and</p>
+      <p begin="50.62s" xml:id="p19" end="53.12s">maintain optimal building performance.</p>
+      <p begin="53.12s" xml:id="p20" end="55.61s">The final best practice<br />is to ensure that energy</p>
+      <p begin="55.61s" xml:id="p21" end="57.48s">efficient products and equipment are being</p>
+      <p begin="57.48s" xml:id="p22" end="59.613s">procured and installed as required.</p>
+      <p begin="60.67s" xml:id="p23" end="62.59s">When we speak of energy efficiency,</p>
+      <p begin="62.59s" xml:id="p24" end="64.69s">there are two key performance indicators</p>
+      <p begin="64.69s" xml:id="p25" end="67.51s">that facilities can use to gauge success.</p>
+      <p begin="67.51s" xml:id="p26" end="70.21s">The first option is to<br />obtain an Energy Star score</p>
+      <p begin="70.21s" xml:id="p27" end="73.6s">of 75 or higher using Portfolio Manager.</p>
+      <p begin="73.6s" xml:id="p28" end="76.28s">The Energy Star score is<br />calculated using building</p>
+      <p begin="76.28s" xml:id="p29" end="79.22s">characteristics and consumption<br />information to provide</p>
+      <p begin="79.22s" xml:id="p30" end="82.04s">an external reference that<br />helps energy managers assess</p>
+      <p begin="82.04s" xml:id="p31" end="84.08s">how efficiently a building uses energy</p>
+      <p begin="84.08s" xml:id="p32" end="85.86s">relative to similar buildings.</p>
+      <p begin="85.86s" xml:id="p33" end="89.11s">A score of 75 or higher<br />indicates that your building</p>
+      <p begin="89.11s" xml:id="p34" end="92.05s">is in the top 25 percentile of performance</p>
+      <p begin="92.05s" xml:id="p35" end="95.32s">in comparison to buildings<br />of the same operation type.</p>
+      <p begin="95.32s" xml:id="p36" end="98.33s">Reports from portfolio manager<br />can be used to demonstrate</p>
+      <p begin="98.33s" xml:id="p37" end="100.4s">proper implementation in this area.</p>
+      <p begin="100.4s" xml:id="p38" end="103.47s">In addition, certain eligible<br />commercial, and institutional</p>
+      <p begin="103.47s" xml:id="p39" end="106.57s">buildings that achieve<br />a score of 75 or higher</p>
+      <p begin="106.57s" xml:id="p40" end="109.48s">can apply for an Energy<br />Star label through NRCan's</p>
+      <p begin="109.48s" xml:id="p41" end="112.35s">Energy Star Building<br />Certification Program.</p>
+      <p begin="112.35s" xml:id="p42" end="114.61s">We will go into more<br />detail about Energy Star</p>
+      <p begin="114.61s" xml:id="p43" end="116.403s">ratings in the following slides.</p>
+      <p begin="117.63s" xml:id="p44" end="121.14s">Energy Star scores range<br />between one and 100.</p>
+      <p begin="121.14s" xml:id="p45" end="123.41s">Buildings that receive<br />a low score may be great</p>
+      <p begin="123.41s" xml:id="p46" end="126.4s">candidates for major<br />energy efficiency upgrades.</p>
+      <p begin="126.4s" xml:id="p47" end="128.57s">This may include buildings<br />that have been targeted</p>
+      <p begin="128.57s" xml:id="p48" end="131.61s">for energy improvements and<br />can show significant savings</p>
+      <p begin="131.61s" xml:id="p49" end="134.12s">following the installation<br />of new equipment.</p>
+      <p begin="134.12s" xml:id="p50" end="137.49s">Scores between 25 and 50<br />may need a combination</p>
+      <p begin="137.49s" xml:id="p51" end="140.21s">of building improvements<br />and minor adjustments.</p>
+      <p begin="140.21s" xml:id="p52" end="143.67s">Building scores between<br />50 and 75 can benefit from</p>
+      <p begin="143.67s" xml:id="p53" end="146.69s">lighting and building control<br />upgrades, or recommissioning.</p>
+      <p begin="146.69s" xml:id="p54" end="150.17s">Recommissioning is a periodic,<br />recurring, re-optimization</p>
+      <p begin="150.17s" xml:id="p55" end="153.43s">process that is carried out<br />after three to five years.</p>
+      <p begin="153.43s" xml:id="p56" end="157.36s">Buildings over 75 are performing<br />in the top percentile.</p>
+      <p begin="157.36s" xml:id="p57" end="159.73s">Further improvements can<br />be achieved through tenant</p>
+      <p begin="159.73s" xml:id="p58" end="162.93s">education, ongoing<br />commissioning, and initiation</p>
+      <p begin="162.93s" xml:id="p59" end="165.11s">of a plug load reduction strategy.</p>
+      <p begin="165.11s" xml:id="p60" end="167.604s">Ongoing commissioning is a<br />continuous process that often</p>
+      <p begin="167.604s" xml:id="p61" end="171.3s">involves data analytics using<br />fault detection software.</p>
+      <p begin="172.2s" xml:id="p62" end="174.94s">While all facilities can<br />track and assess energy,</p>
+      <p begin="174.95s" xml:id="p63" end="178.21s">greenhouse gas emissions, and<br />water use by using Energy Star</p>
+      <p begin="178.21s" xml:id="p64" end="181.11s">Portfolio Manager, currently<br />there are only seven</p>
+      <p begin="181.11s" xml:id="p65" end="184.29s">building types eligible to<br />receive an Energy Star score.</p>
+      <p begin="184.29s" xml:id="p66" end="187.28s">They would include ice rinks, K12 schools,</p>
+      <p begin="187.28s" xml:id="p67" end="190.198s">medical offices, hospitals, supermarkets,</p>
+      <p begin="190.198s" xml:id="p68" end="193.55s">office buildings, and<br />senior care communities.</p>
+      <p begin="193.55s" xml:id="p69" end="197.1s">NRCan is developing new<br />scores on a progressive basis,</p>
+      <p begin="197.1s" xml:id="p70" end="199.39s">and your building type could be next.</p>
+      <p begin="199.39s" xml:id="p71" end="202.34s">If a building is not eligible<br />for an Energy Star score,</p>
+      <p begin="202.34s" xml:id="p72" end="204.741s">it can still demonstrate<br />superior energy efficiency</p>
+      <p begin="204.741s" xml:id="p73" end="207.288s">by achieving the second<br />key performance indicator</p>
+      <p begin="207.288s" xml:id="p74" end="210.71s">which is a 30% energy<br />efficiency improvement over</p>
+      <p begin="210.71s" xml:id="p75" end="213.41s">the current ASHRAE 90.1 standard.</p>
+      <p begin="213.41s" xml:id="p76" end="216.45s">This option requires an<br />energy simulation to determine</p>
+      <p begin="216.45s" xml:id="p77" end="218.98s">the actual energy<br />efficiency of the building.</p>
+      <p begin="218.98s" xml:id="p78" end="222.52s">ASHRAE 90.1 is an American<br />national standard that provides</p>
+      <p begin="222.52s" xml:id="p79" end="225.12s">minimum requirements for<br />energy efficient designs</p>
+      <p begin="225.12s" xml:id="p80" end="228.4s">for buildings, except for low<br />rise residential buildings.</p>
+      <p begin="228.4s" xml:id="p81" end="231.42s">For existing buildings, energy<br />managers can use various</p>
+      <p begin="231.42s" xml:id="p82" end="234.21s">software such as CAN-QUEST<br />to determine how it</p>
+      <p begin="234.21s" xml:id="p83" end="236.89s">compares to the latest 90.1 standard.</p>
+      <p begin="236.89s" xml:id="p84" end="239.36s">For new buildings, facility<br />managers should review</p>
+      <p begin="239.36s" xml:id="p85" end="241.64s">the design and commissioning<br />records on file.</p>
+      <p begin="241.64s" xml:id="p86" end="243.6s">Has an energy analysis been completed?</p>
+      <p begin="243.6s" xml:id="p87" end="245.81s">And if so, what were the results?</p>
+      <p begin="245.81s" xml:id="p88" end="248.32s">For buildings completing<br />major renovations,</p>
+      <p begin="248.32s" xml:id="p89" end="250.22s">facility managers should inquire with</p>
+      <p begin="250.22s" xml:id="p90" end="252.32s">their energy service provider to determine</p>
+      <p begin="252.32s" xml:id="p91" end="254.59s">if savings have already been calculated.</p>
+      <p begin="254.59s" xml:id="p92" end="256.86s">A building can demonstrate<br />success in this area</p>
+      <p begin="256.86s" xml:id="p93" end="259.92s">using reports from the<br />energy simulation, or another</p>
+      <p begin="259.92s" xml:id="p94" end="261.98s">form of energy use model that confirms</p>
+      <p begin="261.98s" xml:id="p95" end="265.72s">a 30% better efficiency than ASHRAE 90.1.</p>
+      <p begin="266.26s" xml:id="p96" end="268.54s">A good example of<br />implementing this principle</p>
+      <p begin="268.55s" xml:id="p97" end="271.4s">is through improving<br />efficiency and plug loads.</p>
+      <p begin="271.4s" xml:id="p98" end="274.23s">Energy consumed by plug loads<br />is one of the largest and</p>
+      <p begin="274.23s" xml:id="p99" end="277.5s">fastest growing end uses in<br />the commercial building sector.</p>
+      <p begin="277.5s" xml:id="p100" end="280.14s">Examining opportunities<br />to reduce plug loads</p>
+      <p begin="280.14s" xml:id="p101" end="283.89s">may reveal low cost options for<br />reducing energy consumption.</p>
+      <p begin="283.89s" xml:id="p102" end="287.47s">Break rooms, office electronics,<br />and data centers are prime</p>
+      <p begin="287.47s" xml:id="p103" end="290.84s">candidates to consider when<br />looking to reduce plug loads.</p>
+      <p begin="290.84s" xml:id="p104" end="293.14s">Reducing these loads will<br />help these facilities</p>
+      <p begin="293.14s" xml:id="p105" end="296.02s">meet their energy efficiency targets.</p>
+    </div>
+  </body>
+</tt>

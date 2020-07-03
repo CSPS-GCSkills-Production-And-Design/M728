@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.0s" xml:id="p0" end="0.9s">over time, the facility team<br />can proceed with benchmarking.</p>
+      <p begin="0.9s" xml:id="p1" end="3.29s">This is the second guiding<br />principle for optimizing</p>
+      <p begin="3.29s" xml:id="p2" end="5.44s">energy performance in existing buildings.</p>
+      <p begin="5.44s" xml:id="p3" end="7.94s">The process of establishing<br />a base line of energy</p>
+      <p begin="7.94s" xml:id="p4" end="10.7s">performance is the starting<br />point for benchmarking.</p>
+      <p begin="10.7s" xml:id="p5" end="13.41s">Once a building produces<br />information about how energy</p>
+      <p begin="13.41s" xml:id="p6" end="16.27s">is consumed on site, the<br />facility team can use this</p>
+      <p begin="16.27s" xml:id="p7" end="19.58s">information to prioritize<br />improvement projects.</p>
+      <p begin="19.58s" xml:id="p8" end="22.21s">The energy efficiency of a<br />building can be calculated</p>
+      <p begin="22.21s" xml:id="p9" end="25.08s">using a metric called<br />Energy Use Intensity,</p>
+      <p begin="25.08s" xml:id="p10" end="27.98s">which is expressed in<br />kilowatts per square meter.</p>
+      <p begin="27.98s" xml:id="p11" end="30.88s">This concept is used to<br />measure how efficiently energy</p>
+      <p begin="30.88s" xml:id="p12" end="33.87s">is being used within a building<br />and allows for comparison</p>
+      <p begin="33.87s" xml:id="p13" end="36.71s">to other buildings of<br />similar size and operation.</p>
+      <p begin="36.71s" xml:id="p14" end="38.78s">Benchmarking typically aims to improve</p>
+      <p begin="38.78s" xml:id="p15" end="41.56s">the energy use intensity of a building.</p>
+      <p begin="41.56s" xml:id="p16" end="44.33s">There are two common software<br />tools that can be used to</p>
+      <p begin="44.33s" xml:id="p17" end="47.61s">facilitate the benchmarking<br />process in the federal sector.</p>
+      <p begin="47.61s" xml:id="p18" end="50.88s">Energy Star Portfolio<br />Manager and RETScreen Expert</p>
+      <p begin="50.88s" xml:id="p19" end="53.21s">are the leading tool for<br />tracking and comparing</p>
+      <p begin="53.21s" xml:id="p20" end="54.963s">building energy use over time.</p>
+      <p begin="55.91s" xml:id="p21" end="58.82s">Benchmarking best practices<br />state that facility managers</p>
+      <p begin="58.82s" xml:id="p22" end="61.34s">should set energy performance<br />benchmarks annually,</p>
+      <p begin="61.34s" xml:id="p23" end="63.43s">preferably using Portfolio Manager</p>
+      <p begin="63.43s" xml:id="p24" end="65.43s">or RETScreen to compare the actual</p>
+      <p begin="65.43s" xml:id="p25" end="68.19s">performance against the<br />established benchmark.</p>
+      <p begin="68.19s" xml:id="p26" end="70.38s">This involves regularly<br />monitoring building</p>
+      <p begin="70.38s" xml:id="p27" end="72.26s">energy performance against historical</p>
+      <p begin="72.26s" xml:id="p28" end="74.67s">performance and peer buildings.</p>
+      <p begin="74.67s" xml:id="p29" end="76.95s">The Government of Canada<br />is committed to ensuring</p>
+      <p begin="76.95s" xml:id="p30" end="79.04s">accountability for the<br />government's environmental</p>
+      <p begin="79.04s" xml:id="p31" end="81.55s">performance and will adhere<br />to this commitment using</p>
+      <p begin="81.55s" xml:id="p32" end="84.95s">the principles of<br />transparency and open data.</p>
+      <p begin="84.95s" xml:id="p33" end="87.67s">Facilities can demonstrate<br />proper implementation</p>
+      <p begin="87.67s" xml:id="p34" end="89.7s">using documentation from Energy Star</p>
+      <p begin="89.7s" xml:id="p35" end="92.31s">Portfolio Manager or RETScreen.</p>
+      <p begin="92.31s" xml:id="p36" end="95.15s">Property types that are not<br />eligible for an Energy Star</p>
+      <p begin="95.15s" xml:id="p37" end="97.614s">score can still generate<br />reports showing benchmarking</p>
+      <p begin="97.614s" xml:id="p38" end="100.88s">properties and trends<br />of energy use over time.</p>
+      <p begin="100.88s" xml:id="p39" end="103.57s">Facilities that choose not<br />to use Portfolio Manager</p>
+      <p begin="103.57s" xml:id="p40" end="106.18s">can set benchmarks and compare<br />their energy performance</p>
+      <p begin="106.18s" xml:id="p41" end="108.16s">using other means such as utility</p>
+      <p begin="108.16s" xml:id="p42" end="111.54s">billing data, or internal energy reports.</p>
+      <p begin="111.98s" xml:id="p43" end="115.64s">Energy Star Portfolio<br />Manager is a free, interactive</p>
+      <p begin="115.64s" xml:id="p44" end="118.68s">energy management tool<br />that allows users to track,</p>
+      <p begin="118.68s" xml:id="p45" end="121.66s">assess, and benchmark<br />energy and water consumption</p>
+      <p begin="121.66s" xml:id="p46" end="125.4s">for all facility types across<br />entire building portfolios.</p>
+      <p begin="125.4s" xml:id="p47" end="128.47s">Portfolio Manager has a<br />standardized metric for comparing</p>
+      <p begin="128.47s" xml:id="p48" end="130.68s">whole building energy<br />performance to similar</p>
+      <p begin="130.68s" xml:id="p49" end="133.203s">buildings of specific rateable types.</p>
+      <p begin="135.38s" xml:id="p50" end="136.87s">Another tool that can be used for</p>
+      <p begin="136.87s" xml:id="p51" end="140.0s">benchmarking purposes is RETScreen Expert.</p>
+      <p begin="140.0s" xml:id="p52" end="142.9s">Developed by the Government<br />of Canada, RETScreen Expert</p>
+      <p begin="142.9s" xml:id="p53" end="145.49s">is a software for energy<br />efficiency and renewable</p>
+      <p begin="145.49s" xml:id="p54" end="147.45s">energy project feasibility analysis,</p>
+      <p begin="147.45s" xml:id="p55" end="149.92s">as well as ongoing energy analysis.</p>
+      <p begin="149.92s" xml:id="p56" end="152.94s">This tool has many functions<br />and can be used to perform</p>
+      <p begin="152.94s" xml:id="p57" end="156.8s">portfolio wide analysis, collect<br />information on a facility,</p>
+      <p begin="156.8s" xml:id="p58" end="160.3s">perform benchmarking analysis,<br />track energy and greenhouse</p>
+      <p begin="160.3s" xml:id="p59" end="163.741s">gas emissions, and for<br />general performance analysis.</p>
+      <p begin="163.741s" xml:id="p60" end="167.02s">This tool is used widely<br />throughout government and industry.</p>
+      <p begin="167.02s" xml:id="p61" end="170.7s">Some of the key users include<br />3M, CRH Canada,</p>
+      <p begin="170.7s" xml:id="p62" end="175.52s">Oxford Properties, Canadian Tire,<br />The Coalition of Ontario Universities,</p>
+      <p begin="175.52s" xml:id="p63" end="178.88s">National Defense, Public Services and Procurement Canada</p>
+      <p begin="178.88s" xml:id="p64" end="181.0s">and Natural Resources Canada.</p>
+    </div>
+  </body>
+</tt>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="2.74s" xml:id="p0" end="4.08s">Hello everyone and welcome to</p>
+      <p begin="4.08s" xml:id="p1" end="6.69s">Natural Resources<br />Canada's e-training module</p>
+      <p begin="6.69s" xml:id="p2" end="9.88s">on optimizing the energy<br />performance of existing buildings.</p>
+      <p begin="11.1s" xml:id="p3" end="13.46s">This course has been adapted<br />from the US Department</p>
+      <p begin="13.46s" xml:id="p4" end="15.92s">of Energy's Federal<br />Energy Management Program</p>
+      <p begin="15.93s" xml:id="p5" end="18.15s">training material on optimizing the energy</p>
+      <p begin="18.15s" xml:id="p6" end="20.45s">performance of existing buildings.</p>
+      <p begin="20.45s" xml:id="p7" end="22.43s">This training is being<br />delivered through the Natural</p>
+      <p begin="22.43s" xml:id="p8" end="24.683s">Resources Canada Greening<br />Government Services</p>
+      <p begin="24.683s" xml:id="p9" end="27.31s">to help federal departments<br />and agencies plan</p>
+      <p begin="27.31s" xml:id="p10" end="29.7s">and implement projects<br />that reduce the energy use</p>
+      <p begin="29.7s" xml:id="p11" end="31.91s">and greenhouse gas emissions<br />in their buildings,</p>
+      <p begin="31.91s" xml:id="p12" end="35.26s">laboratories, other<br />facilities, and vehicle fleets.</p>
+      <p begin="35.26s" xml:id="p13" end="37.81s">Over the years, Natural<br />Resources Canada has been</p>
+      <p begin="37.81s" xml:id="p14" end="40.56s">successfully developing<br />comprehensive methodologies,</p>
+      <p begin="40.56s" xml:id="p15" end="43.2s">practices and tools to<br />reduce energy consumption</p>
+      <p begin="43.2s" xml:id="p16" end="45.74s">and greenhouse gas emissions<br />for the private and public</p>
+      <p begin="45.74s" xml:id="p17" end="48.09s">sectors including the federal government.</p>
+      <p begin="48.09s" xml:id="p18" end="51.8s">Since 1991, NRCan has provided<br />enhanced technical support</p>
+      <p begin="51.8s" xml:id="p19" end="54.652s">to government of Canada<br />organizations seeking ambitious</p>
+      <p begin="54.652s" xml:id="p20" end="57.12s">greenhouse gas emission reduction actions</p>
+      <p begin="57.12s" xml:id="p21" end="59.4s">from their building and fleet operations.</p>
+      <p begin="59.4s" xml:id="p22" end="62.05s">This training will support<br />federal organizations to meet</p>
+      <p begin="62.05s" xml:id="p23" end="64.55s">their commitments and lead by example.</p>
+      <p begin="64.55s" xml:id="p24" end="67.21s">The federal government has<br />committed to reducing emissions</p>
+      <p begin="67.21s" xml:id="p25" end="71.8s">from their operations by 40%<br />below 2005 levels by 2030,</p>
+      <p begin="71.8s" xml:id="p26" end="76.184s">and by 80% by 2050 as<br />outlined in the 2016 to 19</p>
+      <p begin="76.184s" xml:id="p27" end="78.72s">Federal Sustainable Development Strategy</p>
+      <p begin="78.72s" xml:id="p28" end="81.06s">and in the Greening Government Strategy.</p>
+      <p begin="81.06s" xml:id="p29" end="83.42s">It is important to note that<br />federal buildings represent</p>
+      <p begin="83.42s" xml:id="p30" end="87.2s">almost 90% of the government's<br />greenhouse gas emissions.</p>
+      <p begin="87.2s" xml:id="p31" end="89.38s">This initiative also<br />supports the commitment by</p>
+      <p begin="89.38s" xml:id="p32" end="91.74s">Canada's federal,<br />preventional and territorial</p>
+      <p begin="91.74s" xml:id="p33" end="94.36s">first ministers to scale<br />up efforts to transition</p>
+      <p begin="94.36s" xml:id="p34" end="96.68s">to highly efficient<br />buildings and zero emission</p>
+      <p begin="96.68s" xml:id="p35" end="99.87s">vehicle fleets as specified<br />in the Pan-Canadian framework</p>
+      <p begin="99.87s" xml:id="p36" end="102.063s">on clean growth and climate change.</p>
+      <p begin="103.17s" xml:id="p37" end="105.27s">The ultimate objective<br />of this training course</p>
+      <p begin="105.27s" xml:id="p38" end="108.1s">is to present the incremental<br />steps to optimizing</p>
+      <p begin="108.1s" xml:id="p39" end="110.62s">energy performance of existing buildings.</p>
+      <p begin="110.62s" xml:id="p40" end="112.9s">This course will flow in<br />a way that introduces the</p>
+      <p begin="112.9s" xml:id="p41" end="115.05s">four guiding principles<br />that should be followed</p>
+      <p begin="115.05s" xml:id="p42" end="117.14s">sequentially on the journey to optimizing</p>
+      <p begin="117.14s" xml:id="p43" end="119.57s">the energy performance<br />of existing buildings.</p>
+      <p begin="119.57s" xml:id="p44" end="122.74s">Each guiding principle will be<br />accompanied by best practices</p>
+      <p begin="122.74s" xml:id="p45" end="125.86s">and associated metrics to<br />provide guidance on actions</p>
+      <p begin="125.86s" xml:id="p46" end="128.56s">that can be taken to meet the<br />guiding principle in question.</p>
+      <p begin="128.56s" xml:id="p47" end="131.08s">Certain guiding principles<br />are related to federal</p>
+      <p begin="131.08s" xml:id="p48" end="132.63s">commitments that have been made as part</p>
+      <p begin="132.63s" xml:id="p49" end="134.52s">of the Greening Government Strategy.</p>
+      <p begin="134.52s" xml:id="p50" end="137.2s">These commitments will be<br />identified as applicable.</p>
+      <p begin="137.2s" xml:id="p51" end="141.36s">The four guiding principles<br />are metering, benchmarking,</p>
+      <p begin="141.36s" xml:id="p52" end="145.0s">energy efficiency, and<br />renewable and clean energy.</p>
+    </div>
+  </body>
+</tt>

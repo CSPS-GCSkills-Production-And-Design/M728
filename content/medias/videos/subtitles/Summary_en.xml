@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="1.06s" xml:id="p0" end="3.86s">This course has provided<br />an overview of the guiding</p>
+      <p begin="3.86s" xml:id="p1" end="6.6s">principles and best practices<br />related to optimizing</p>
+      <p begin="6.6s" xml:id="p2" end="8.72s">energy performance of existing buildings.</p>
+      <p begin="8.72s" xml:id="p3" end="12.22s">The four guiding principles<br />are metering, benchmarking,</p>
+      <p begin="12.22s" xml:id="p4" end="15.0s">energy efficiency, and<br />renewable and clean energy.</p>
+      <p begin="15.0s" xml:id="p5" end="16.98s">These guiding principles form the basis</p>
+      <p begin="16.98s" xml:id="p6" end="18.57s">of the approach that should be taken when</p>
+      <p begin="18.57s" xml:id="p7" end="20.83s">looking to optimize energy performance.</p>
+      <p begin="20.83s" xml:id="p8" end="23.63s">We also learned about software<br />tools like Energy Star</p>
+      <p begin="23.63s" xml:id="p9" end="26.46s">Portfolio Manager and<br />RETScreen, and how they can</p>
+      <p begin="26.46s" xml:id="p10" end="30.04s">assist us on our journey to<br />optimizing energy performance.</p>
+      <p begin="30.04s" xml:id="p11" end="31.84s">Together we can lead by example and</p>
+      <p begin="31.84s" xml:id="p12" end="34.0s">create a more sustainable future.</p>
+      <p begin="34.36s" xml:id="p13" end="37.5s">NRCan and other federal<br />organizations provide valuable</p>
+      <p begin="37.5s" xml:id="p14" end="40.56s">resources, guidance, and<br />training in areas related</p>
+      <p begin="40.56s" xml:id="p15" end="42.73s">to energy performance optimization.</p>
+      <p begin="42.73s" xml:id="p16" end="45.2s">Examples of available resources<br />include</p>
+      <p begin="45.2s" xml:id="p17" end="48.7s">the Pan-Canadian Framework on Clean Growth and Climate Change,</p>
+      <p begin="48.7s" xml:id="p18" end="51.23s">the Federal Sustainable<br />Development Strategy,</p>
+      <p begin="51.23s" xml:id="p19" end="54.35s">the Greening Government<br />Strategy, and NRCan's</p>
+      <p begin="54.35s" xml:id="p20" end="56.44s">Energy Management Best Practices Guide</p>
+      <p begin="56.44s" xml:id="p21" end="58.73s">For Commercial and<br />Institutional Buildings.</p>
+      <p begin="58.73s" xml:id="p22" end="61.5s">These resources can be used<br />to learn more about active</p>
+      <p begin="61.5s" xml:id="p23" end="63.58s">federal commitments<br />related to climate change</p>
+      <p begin="63.58s" xml:id="p24" end="65.91s">and strategies to meet these objectives.</p>
+      <p begin="65.91s" xml:id="p25" end="68.5s">Lastly, if you have any<br />questions about optimizing</p>
+      <p begin="68.5s" xml:id="p26" end="70.78s">the energy performance<br />of existing buildings,</p>
+      <p begin="70.78s" xml:id="p27" end="73.24s">or are interested in other<br />training opportunities,</p>
+      <p begin="73.24s" xml:id="p28" end="75.3s">do not hesitate to get in<br />contact with</p>
+      <p begin="75.3s" xml:id="p29" end="79.04s">the Office of Energy Efficiency using the<br />contact information provided.</p>
+      <p begin="79.05s" xml:id="p30" end="80.35s">Our email address is</p>
+      <p begin="80.35s" xml:id="p31" end="87.16s">nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca.</p>
+      <p begin="87.16s" xml:id="p32" end="88.56s">Our website can be found at</p>
+      <p begin="88.56s" xml:id="p33" end="93.94s">www.nrcan.gc.ca/greeninggovernment</p>
+      <p begin="93.94s" xml:id="p34" end="96.26s">Thank you for participating.</p>
+      <p begin="96.76s" xml:id="p35" end="98.72s">Now we will have some quiz questions</p>
+      <p begin="98.72s" xml:id="p36" end="100.54s">to test what we've learned.</p>
+      <p begin="101.42s" xml:id="p37" end="104.43s">Question 1, which of the<br />four guiding principles</p>
+      <p begin="104.43s" xml:id="p38" end="107.13s">relates to improving the<br />energy performance of specific</p>
+      <p begin="107.13s" xml:id="p39" end="108.97s">building components or systems?</p>
+      <p begin="108.97s" xml:id="p40" end="110.73s">A. Energy Efficiency</p>
+      <p begin="110.73s" xml:id="p41" end="113.15s">B. Renewable and Clean Energy</p>
+      <p begin="113.15s" xml:id="p42" end="114.7s">C. Metering</p>
+      <p begin="114.7s" xml:id="p43" end="116.54s">D. Benchmarking</p>
+      <p begin="116.54s" xml:id="p44" end="119.66s">The correct answer is<br />"A. Energy Efficiency".</p>
+      <p begin="120.28s" xml:id="p45" end="123.3s">Question 2, what is the<br />minimum energy performance score</p>
+      <p begin="123.3s" xml:id="p46" end="125.16s">required for a building to be eligible</p>
+      <p begin="125.17s" xml:id="p47" end="127.13s">for the Energy Star certification?</p>
+      <p begin="127.13s" xml:id="p48" end="128.78s">A. 55</p>
+      <p begin="128.78s" xml:id="p49" end="130.66s">B. 65</p>
+      <p begin="130.66s" xml:id="p50" end="132.48s">C. 75</p>
+      <p begin="132.48s" xml:id="p51" end="134.4s">or D. 85</p>
+      <p begin="134.4s" xml:id="p52" end="136.28s">The correct answer is "C".</p>
+      <p begin="136.28s" xml:id="p53" end="139.94s">A minimum Energy Star score of 75 is required.</p>
+      <p begin="140.54s" xml:id="p54" end="143.46s">Question 3, which of the<br />following are key performance</p>
+      <p begin="143.46s" xml:id="p55" end="146.36s">indicators related to the<br />energy efficiency of a building?</p>
+      <p begin="146.36s" xml:id="p56" end="150.26s">A. Receive an Energy Star<br />score of 75 or higher.</p>
+      <p begin="150.26s" xml:id="p57" end="153.23s">B. Energy use is 30% higher than the</p>
+      <p begin="153.23s" xml:id="p58" end="156.5s">fiscal year 2003 energy use baseline.</p>
+      <p begin="156.5s" xml:id="p59" end="158.997s">C. Energy efficiency is 30% better than</p>
+      <p begin="158.997s" xml:id="p60" end="162.05s">the current ASHRAE 90.1 standard.</p>
+      <p begin="162.05s" xml:id="p61" end="164.08s">D. A and B</p>
+      <p begin="164.08s" xml:id="p62" end="166.54s">E. A and C</p>
+      <p begin="166.54s" xml:id="p63" end="169.38s">The correct answer is "E. A and C".</p>
+      <p begin="170.58s" xml:id="p64" end="173.72s">Question 4, can energy modeling be used</p>
+      <p begin="173.73s" xml:id="p65" end="175.875s">to demonstrate improved<br />energy efficiency beyond</p>
+      <p begin="175.875s" xml:id="p66" end="179.02s">the current ASHRAE 90.1 standard?</p>
+      <p begin="179.02s" xml:id="p67" end="180.44s">A. Yes</p>
+      <p begin="180.44s" xml:id="p68" end="181.96s">B. No</p>
+      <p begin="181.96s" xml:id="p69" end="184.18s">The correct is "A. Yes".</p>
+      <p begin="185.44s" xml:id="p70" end="188.5s">Question 5, the purchase<br />of Renewable Energy Credits</p>
+      <p begin="188.5s" xml:id="p71" end="190.31s">can be used to meet the guiding principle</p>
+      <p begin="190.31s" xml:id="p72" end="192.54s">related to renewable and clean energy.</p>
+      <p begin="192.54s" xml:id="p73" end="194.01s">A. Yes</p>
+      <p begin="194.01s" xml:id="p74" end="195.58s">B. No</p>
+      <p begin="195.94s" xml:id="p75" end="198.94s">The correct answer is "A. Yes".</p>
+      <p begin="199.74s" xml:id="p76" end="202.5s">Question 6, a<br />whole-building energy audit</p>
+      <p begin="202.5s" xml:id="p77" end="204.52s">is the starting point<br />for meeting the guiding</p>
+      <p begin="204.52s" xml:id="p78" end="206.64s">principle related to benchmarking.</p>
+      <p begin="206.65s" xml:id="p79" end="208.05s">A. True</p>
+      <p begin="208.05s" xml:id="p80" end="209.623s">B. False</p>
+      <p begin="210.5s" xml:id="p81" end="213.67s">The correct answer is "B.<br />False", an energy audit</p>
+      <p begin="213.67s" xml:id="p82" end="216.37s">is associated with energy efficiency.</p>
+      <p begin="216.37s" xml:id="p83" end="219.38s">Question 7, a renewable<br />energy system that is not</p>
+      <p begin="219.38s" xml:id="p84" end="222.14s">grid connected and serves<br />only one specific building</p>
+      <p begin="222.14s" xml:id="p85" end="224.64s">is not recommended under<br />the guiding principle</p>
+      <p begin="224.64s" xml:id="p86" end="226.68s">related to renewable and clean energy.</p>
+      <p begin="226.68s" xml:id="p87" end="228.0s">A. True</p>
+      <p begin="228.0s" xml:id="p88" end="229.62s">B. False</p>
+      <p begin="230.02s" xml:id="p89" end="232.42s">The correct answer is "B. False".</p>
+      <p begin="233.62s" xml:id="p90" end="236.5s">Question 8, which of the<br />guiding principles should be</p>
+      <p begin="236.5s" xml:id="p91" end="239.45s">taken on first in your journey<br />to optimizing the energy</p>
+      <p begin="239.45s" xml:id="p92" end="241.43s">performance of an existing building?</p>
+      <p begin="241.43s" xml:id="p93" end="242.91s">A. Metering</p>
+      <p begin="242.91s" xml:id="p94" end="244.6s">B. Energy Efficiency</p>
+      <p begin="244.6s" xml:id="p95" end="246.76s">C. Benchmarking</p>
+      <p begin="246.76s" xml:id="p96" end="249.3s">D. Renewable and Clean Energy</p>
+      <p begin="249.66s" xml:id="p97" end="252.24s">The correct answer is "A. Metering".</p>
+      <p begin="252.24s" xml:id="p98" end="254.45s">Metering is the first<br />step to optimizing energy</p>
+      <p begin="254.45s" xml:id="p99" end="256.51s">performance as it allows you to ensure</p>
+      <p begin="256.51s" xml:id="p100" end="258.95s">the baseline energy consumption.</p>
+      <p begin="258.95s" xml:id="p101" end="261.9s">Question 9, what is the<br />national greenhouse gas</p>
+      <p begin="261.9s" xml:id="p102" end="263.94s">reduction target<br />established in the Federal</p>
+      <p begin="263.94s" xml:id="p103" end="266.36s">Sustainable Development Strategy?</p>
+      <p begin="266.36s" xml:id="p104" end="273.02s">A. 50% below 2005 levels<br />by 2030 and by 60% by 2050.</p>
+      <p begin="273.02s" xml:id="p105" end="279.34s">B. 40% below 2005 levels<br />by 2030 and by 80% by 2050.</p>
+      <p begin="279.34s" xml:id="p106" end="285.94s">C. 20% below 2005 levels<br />by 2030 and by 70% by 2050.</p>
+      <p begin="286.48s" xml:id="p107" end="289.957s">The correct answer is "B. 40% below 2005</p>
+      <p begin="289.957s" xml:id="p108" end="294.24s">levels by 2030, and by 80% by 2050."</p>
+      <p begin="294.24s" xml:id="p109" end="297.9s">Question 10, which guiding<br />principle is related to the best</p>
+      <p begin="297.9s" xml:id="p110" end="300.61s">practice of performing<br />recommissioning on building systems</p>
+      <p begin="300.61s" xml:id="p111" end="302.96s">to ensure they are operating optimally?</p>
+      <p begin="302.96s" xml:id="p112" end="305.28s">A. Energy Efficiency</p>
+      <p begin="305.28s" xml:id="p113" end="307.9s">B. Renewable and Clean Energy</p>
+      <p begin="307.9s" xml:id="p114" end="309.871s">C. Benchmarking</p>
+      <p begin="309.871s" xml:id="p115" end="311.97s">D. Metering</p>
+      <p begin="311.97s" xml:id="p116" end="315.16s">The correct answer is<br />"A. Energy Efficiency".</p>
+      <p begin="315.96s" xml:id="p117" end="318.34s">If you have any questions<br />about optimizing the energy</p>
+      <p begin="318.35s" xml:id="p118" end="321.07s">performance of existing<br />buildings, do not hesitate</p>
+      <p begin="321.07s" xml:id="p119" end="323.7s">to get in contact with the<br />Office of Energy Efficiency</p>
+      <p begin="323.7s" xml:id="p120" end="326.09s">using the contact information provided.</p>
+      <p begin="326.09s" xml:id="p121" end="327.6s">Our email address is</p>
+      <p begin="327.6s" xml:id="p122" end="334.42s">nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca</p>
+      <p begin="334.42s" xml:id="p123" end="340.26s">Our website can be found at<br />nrcan.gc.ca/greeninggovernment</p>
+      <p begin="340.26s" xml:id="p124" end="342.86s">Thanks again for your participation.</p>
+    </div>
+  </body>
+</tt>

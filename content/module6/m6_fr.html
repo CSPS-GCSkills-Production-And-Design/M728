@@ -1,0 +1,66 @@
+<h1>Résumé du cours</h1>
+<div class="col-md-12">
+    <div class="instructions">
+        <div class="circle_icon video"></div>
+        <p class="content">Visionnez la vidéo suivante, qui offre un résumé du cours.</p>
+    </div>
+    <div class="video_player col-sm-10 col-sm-offset-1">
+        <div class="ipad-camera"></div>
+        <figure class="wb-mltmd col-sm-10  col-sm-offset-1">
+            <video poster="content/medias/videos/posters/Resume_fr.jpg" tabindex="-1" title="Résumé du cours">
+                <source type="video/mp4" src="https://video.csps-efpc.gc.ca/p/101/sp/10100/playManifest/entryId/0_bbomxz8k/flavorId/0_ezknl236/format/url/protocol/https/a.mp4" />
+                <track data-type="application/ttml+xml" kind="captions" label="Français" src="content/medias/videos/subtitles/Resume_fr.xml" srclang="fr">
+            </video>
+            <figcaption>
+                <div class="accordion vertical">
+                    <details id="inline-captions">
+                        <summary><span class="glyphicon glyphicon-plus"></span>Transcription</summary>
+                        <div class="tgl-panel">
+                        	<h2>Résumé du cours - Transcription de la vidéo</h2>
+							<p>Ce cours fournit un aperçu des principes directeurs et des pratiques exemplaires concernant l’optimisation du rendement énergétique des bâtiments existants.</p>
+							<p>Les quatre principes directeurs sont les suivants : </p>
+							<ul>
+								<li>le mesurage;</li>
+								<li>l'analyse comparative;</li>
+								<li>l’efficacité énergétique;</li>
+								<li>l’énergie renouvelable et propre.</li>
+							</ul>
+							<p>Ces principes directeurs représentent le fondement de l’approche à adopter dans le but d’optimiser le rendement énergétique.</p>
+							<p>Nous avons également découvert des outils logiciels comme ENERGY STAR Portfolio Manager et RETScreen, ainsi que l’aide qu’ils pouvaient nous apporter dans l’optimisation du rendement énergétique.</p>
+							<p>RNCan et d’autres organismes fédéraux fournissent d’importantes ressources, de l’aide et de la formation dans les domaines relatifs à l’optimisation du rendement énergétique.</p>
+							<p>Exemples de ressources proposées.</p>
+							<ul>
+								<li>Le Cadre pancanadien sur la croissance propre et les changements climatiques.</li>
+								<li>La Stratégie fédérale de développement durable (SFDD).</li>
+								<li>La Stratégie pour un gouvernement vert.</li>
+							</ul>
+							<p>Consulter également la publication de RNCan intitulée Guide des pratiques exemplaires en matière de gestion de l’énergie – Bâtiments commerciaux et institutionnels.</p>
+							<p>Ces ressources peuvent permettre d’en apprendre davantage sur les engagements actifs du gouvernement fédéral concernant les changements climatiques et les stratégies visant à atteindre les objectifs.</p>
+							<p>Enfin, si vous avez des questions sur l’optimisation du rendement énergétique des bâtiments existants ou êtes intéressé par d’autres possibilités de formation, n’hésitez pas à communiquer avec l’Office de l’efficacité énergétique aux coordonnées fournies.</p>
+							<p>Notre adresse courriel est la suivante : <a href="mailto:nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca">nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca</a></p>
+                            <p>Notre site Web se trouve à l’adresse : <a href="http://www.rncan.gc.ca/gouvernementvert" target="_blank">www.rncan.gc.ca/gouvernementvert</a></p>
+							<p>Nous vous remercions de votre participation!</p>
+                        </div>
+                    </details>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="clearfix"></div>
+    <div class="transcript-clearfix"></div>
+</div>
+<script>
+$(".video_player figcaption details").on("toggle", function() {
+    if ($(this).prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    } else {
+        $(".transcript-clearfix").css({ marginTop: 0 });
+    }
+});
+
+$(window).resize(function() {
+    if ($(".video_player figcaption details").prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    }
+});
+</script>

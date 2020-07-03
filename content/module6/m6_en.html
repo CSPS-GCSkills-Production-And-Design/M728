@@ -1,0 +1,65 @@
+<h1>Summary</h1>
+<div class="col-md-12">
+    <div class="instructions">
+        <div class="circle_icon video"></div>
+        <p class="content">Watch the following video, which is a summary of the course.</p>
+    </div>
+    <div class="video_player col-sm-10 col-sm-offset-1">
+        <div class="ipad-camera"></div>
+        <figure class="wb-mltmd col-sm-10  col-sm-offset-1">
+            <video poster="content/medias/videos/posters/Summary_en.jpg" tabindex="-1" title="Summary">
+                <source type="video/mp4" src="https://video.csps-efpc.gc.ca/p/101/sp/10100/playManifest/entryId/0_h8ssiviz/flavorId/0_4h3449r0/format/url/protocol/https/a.mp4" />
+                <track data-type="application/ttml+xml" kind="captions" label="English" src="content/medias/videos/subtitles/Summary_en.xml" srclang="en">
+            </video>
+            <figcaption>
+                <div class="accordion vertical">
+                    <details id="inline-captions">
+                        <summary><span class="glyphicon glyphicon-plus"></span>Transcript</summary>
+                        <div class="tgl-panel">
+                            <h2>Summary — Video Transcript</h2>
+							<p>This course has provided an overview of the Guiding Principles and best practices related to Optimizing Energy Performance of existing buildings. The four guiding principles are: </p>
+							<ul>
+								<li>metering</li>
+								<li>benchmarking</li>
+								<li>energy efficiency</li>
+								<li>renewable and clean energy</li>
+							</ul>
+							<p>These Guiding Principles form the basis of the approach that should be taken when looking to optimize energy performance. We also learned about software tools like ENERGY STAR Portfolio Manager and RETScreen; and how they can assist us on our journey to optimizing energy performance.</p>
+							<p>Together we can lead by example and create a more sustainable future.</p>
+							<p>NRCan and other federal organizations provide valuable resources, guidance, and training in areas related to Energy Performance Optimization.</p>
+							<p>Examples of available resources include:</p>
+							<ul>
+								<li>Pan-Canadian Framework on Clean Growth and Climate Change </li>
+								<li>Federal Sustainable Development Strategy (FSDS) </li>
+								<li>Greening Government Strategy</li>
+								<li>NRCan’s Energy Management Best Practices Guide for Commercial and Institutional buildings</li>
+							</ul>
+							<p>These resources can be used to learn more about active federal commitments related to climate change and strategies to meet these objectives.</p>
+							<p>Lastly, if you have any questions about Optimizing the Energy Performance of Existing Buildings or are interested in other training opportunities, do not hesitate to get in contact with the Office of Energy Efficiency using the contact information provided.</p>
+                            <p>Our email address is: <a href="mailto:nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca">nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca</a></p>
+                            <p>Our website can be found at: <a href="http://nrcan.gc.ca/greeninggovernment">http://nrcan.gc.ca/greeninggovernment</a></p>
+                            <p>Thank you for participating!</p>
+                        </div>
+                    </details>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="clearfix"></div>
+    <div class="transcript-clearfix"></div>
+</div>
+<script>
+$(".video_player figcaption details").on("toggle", function() {
+    if ($(this).prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    } else {
+        $(".transcript-clearfix").css({ marginTop: 0 });
+    }
+});
+
+$(window).resize(function() {
+    if ($(".video_player figcaption details").prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    }
+});
+</script>

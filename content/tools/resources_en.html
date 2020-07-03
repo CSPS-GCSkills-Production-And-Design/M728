@@ -1,0 +1,111 @@
+<section class="modal-dialog modal-content overlay-def mfp-with-anim mfp-zoom-in">
+<header class="modal-header">
+<h2 class="modal-title">Resources</h2>
+<button title="Close overlay (escape key)" type="button" class="mfp-close overlay-close">×<span class="wb-inv"> Close overlay (escape key)</span></button>
+</header>
+<div class="modal-body">
+	<div id="csps-Abbr">
+        <h2>Abbreviations</h2>
+		<dl id="abbr-list">
+			<dt>NRCan</dt><dd>Natural Resources Canada</dd>
+			<dt>O&amp;M</dt><dd>Observations and Measurements</dd>
+		</dl>
+	</div>
+	<hr>
+	<h2>External Links and Descriptions</h2>
+	
+	<div class="external-list hidden">
+		<dl>
+			<dt><a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/how-print-certificate-or-see-your-transcripts" id="ext-wb-1" target="_blank">Instructions to print your certificate on GCcampus</a></dt>
+			<dd>Link to the instructions to print your certificate on GCcampus</dd>
+		</dl>
+	</div>
+	
+	<div class="external-list">
+		<dl>
+                <dt><a href="https://www.fsds-sfdd.ca/index.html#/en/goals/">Federal Sustainable Development Strategy (FSDS),</a> Government of Canada</dt>
+                <dd>Link to Government of Canada</dd>
+                <dt><a href="https://www.canada.ca/en/services/environment/weather/climatechange/pan-canadian-framework.html">Pan-Canadian Framework on Clean Growth and Climate Change</a>, Natural Resources Canada</dt>
+                <dd>Link to Natural Resources Canada</dd>
+                <dt><a href="https://www.canada.ca/en/treasury-board-secretariat/services/innovation/greening-government/strategy.html">Greening Government Strategy, Government of Canada</a>, Treasury Board of Canada Secretariat</dt>
+                <dd>Link to Treasury Board of Canada Secretariat</dd>
+                <dt><a href="https://www.nrcan.gc.ca/sites/www.nrcan.gc.ca/files/oee/files/pdf/publications/commercial/best_practices_e.pdf">Energy Management Best Practices Guide&mdash;For Commercial and Institutional Buildings</a>, Natural Resources Canada</dt>
+                <dd>Link to Natural Resources Canada</dd>
+                <dt><a href="https://www.nrcan.gc.ca/energy/efficiency/buildings/energy-benchmarking/3693">ENERGY STAR Portfolio Manager</a>, Natural Resources Canada</dt>
+                <dd>Link to Natural Resources Canada</dd>
+                <dt><a href="https://www.nrcan.gc.ca/maps-tools-publications/tools/data-analysis-software-modelling/retscreen/7465">RETScreen</a>, Natural Resources Canada</dt>
+                <dd>Link to Natural Resources Canada</dd>
+            </dl>
+	</div>
+	
+	<p>For any questions concerning the course material, please contact Natural Resources Canada, Office of Energy Efficiency, <abbr>NRCan</abbr>’s Greening Government Services</p>
+	<ul>
+		<li>Email: <a href="mailto:Nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca">Nrcan.greeninggovernment-gouvernementvert.rncan@canada.ca</a></li>
+		<li>Web Site: <a href="https://www.nrcan.gc.ca/energy-efficiency/energy-efficiency-buildings/nrcans-greening-government-services/3705" target="_blank">NRCan’s Greening Government Services</a></li>
+	</ul>
+</div>
+<script src="core/js/plugins/jquery-listnav.js"></script>
+<link rel="stylesheet" href="core/js/plugins/listnav.css">
+</section>
+<script>
+	
+	$(document).ready(function(){
+		$('#abbr-list').listnav({
+			includeAll:  false,
+			includeNums: false,
+			noMatchText: labels.glossary.emptyTerm,
+			showCounts:  false
+		});
+		
+		var abbrs = [];
+		var defs = []
+		$("#abbr-list dt").each(function(){
+			var str = $(this).html();
+			str = str.toLowerCase();
+			str = str.replace(/[àáâãäå]/g,"a");
+			str = str.replace(/[èéêë]/g,"e");
+			abbrs.push(str);
+		});
+		$("#abbr-list dd").each(function(){
+			var str = $(this).html();
+			str = str.toLowerCase();
+			str = str.replace(/[àáâãäå]/g,"a");
+			str = str.replace(/[èéêë]/g,"e");
+			defs.push(str);
+		});
+		console.log(abbrs);
+		console.log(defs);
+
+		var count = 1;
+		for(var i=0; i<abbrs.length; i++){
+			if(abbrs[i].charAt(0) != defs[i].charAt(0)){
+				$("#abbr-list dd").eq(i).addClass("change").attr("data-change", count);
+				$("#abbr-list dt").eq(i).addClass("change" + count);
+				count++;
+			}
+		}
+
+		$("#abbr-list .change").each(function(){
+			var defClassList = $(this).attr("class").split(/\s+/);
+			var defLetterClass;
+			$.each(defClassList, function(index, item){
+				if(item.substring(0, 3) == "ln-"){
+					defLetterClass = item;
+				}
+			});
+			defLetter = defLetterClass.charAt(3);
+
+			var $abbr = $(".change" + $(this).data("change"));
+			var abbrLetter = $abbr.html().charAt(0).toLowerCase();
+
+			$(this).removeClass(defLetterClass).addClass("ln-" + abbrLetter);
+			if($(".ln-letters ." + abbrLetter).hasClass("ln-selected")){
+				$(this).removeClass("listNavHide").addClass("listNavShow");
+			}
+			if($(".ln-letters ." + defLetter).hasClass("ln-selected")){
+				$(this).removeClass("listNavShow").addClass("listNavHide");
+			}
+		});
+	});
+	
+</script>

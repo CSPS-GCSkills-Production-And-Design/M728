@@ -1,0 +1,60 @@
+<h1>Introduction</h1>
+<div class="col-md-12">
+    <div class="instructions">
+        <div class="circle_icon video"></div>
+        <p class="content">Watch the following video, which is an introduction to the course.</p>
+    </div>
+    <div class="video_player col-sm-10 col-sm-offset-1">
+        <div class="ipad-camera"></div>
+        <figure class="wb-mltmd col-sm-10  col-sm-offset-1">
+            <video poster="content/medias/videos/posters/Intro_en.jpg" title="Introduction" tabindex="-1">
+                <source type="video/mp4" src="https://video.csps-efpc.gc.ca/p/101/sp/10100/playManifest/entryId/0_dl0dlshg/flavorId/0_1dua7hbd/format/url/protocol/https/a.mp4" />
+                <track data-type="application/ttml+xml" kind="captions" label="English" src="content/medias/videos/subtitles/Intro_en.xml" srclang="en">
+            </video>
+            <figcaption>
+                <div class="accordion vertical">
+                    <details id="inline-captions">
+                        <summary><span class="glyphicon glyphicon-plus"></span>Transcript</summary>
+                        <div class="tgl-panel">
+                            <h2>Introduction — Video Transcript</h2>
+                            <p>Hello everyone and welcome to Natural Resources Canada’s eTraining Module on Optimizing the Energy Performance of Existing Buildings.</p>
+                            <p>This course has been adapted from the US Department of Energy’s Federal Energy Management Program training material on Optimizing the Energy Performance of Existing Buildings. This training is being delivered through the Natural Resources Canada Greening Government Services, to help federal departments and agencies plan and implement projects that reduce the energy use and greenhouse gas (GHG) emissions in their buildings, laboratories, other facilities and vehicle fleets.</p>
+                            <p>Over the years, Natural Resources Canada has been successfully developing comprehensive methodologies, practices and tools to reduce energy consumption and greenhouse gas emissions for the private and public sectors, including the federal government.</p>
+                            <p>Since 1991, NRCan has provided enhanced technical support to Government of Canada organizations seeking ambitious greenhouse gas emission reduction actions from their building and fleet operations. </p>
+                            <p>This training will support federal organizations to meet their commitments and lead by example. The Federal Government has committed to reducing emissions from their operations by 40% below 2005 levels by 2030 and by 80% by 2050, as outlined in the 2016-19 Federal Sustainable Development Strategy and in the Greening Government Strategy. It is important to note that Federal buildings represent almost 90% of the Government's GHGs.</p>
+                            <p>This initiative also supports the commitment by Canada’s federal, provincial and territorial first ministers to scale up efforts to transition to highly efficient buildings and zero-emission vehicle fleets, as specified in the Pan-Canadian Framework on Clean Growth and Climate Change.</p>
+                            <p>The ultimate objective of this training course is to present the incremental steps to Optimizing the Energy Performance of Existing Buildings.</p>
+                            <p>The course will flow in a way that introduces the four guiding principles that should be followed sequentially on the journey to optimizing the energy performance of existing buildings.</p>
+                            <p>Each Guiding Principle will be accompanied by best practices and associated metrics to provide guidance on actions that can be taken to meet the Guiding Principle in question. </p>
+                            <p>Certain Guiding Principles are related to Federal Commitment that have been made as part of the Greening Government Strategy. These commitments will be identified as applicable.</p>
+                            <p>The four Guiding Principles are: </p>
+							<ul>
+								<li>metering</li>
+								<li>benchmarking</li>
+								<li>energy efficiency</li>
+								<li>renewable and clean energy</li>
+							</ul>
+                        </div>
+                    </details>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    <div class="clearfix"></div>
+    <div class="transcript-clearfix"></div>
+</div>
+<script>
+$(".video_player figcaption details").on("toggle", function() {
+    if ($(this).prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    } else {
+        $(".transcript-clearfix").css({ marginTop: 0 });
+    }
+});
+
+$(window).resize(function() {
+    if ($(".video_player figcaption details").prop("open")) {
+        $(".transcript-clearfix").css({ marginTop: $(".video_player figcaption").outerHeight() });
+    }
+});
+</script>

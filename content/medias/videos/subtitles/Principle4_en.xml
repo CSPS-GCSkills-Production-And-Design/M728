@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.84s" xml:id="p0" end="2.63s">The next guiding principle pertains</p>
+      <p begin="2.63s" xml:id="p1" end="4.78s">to renewable and clean energy.</p>
+      <p begin="4.78s" xml:id="p2" end="6.63s">The best practice states the facility</p>
+      <p begin="6.63s" xml:id="p3" end="8.7s">should evaluate two options for obtaining</p>
+      <p begin="8.7s" xml:id="p4" end="11.15s">access to renewable and clean energy.</p>
+      <p begin="11.15s" xml:id="p5" end="14.62s">The first option is to implement<br />an on site renewable energy</p>
+      <p begin="14.62s" xml:id="p6" end="18.24s">project when it is shown to<br />be life cycle cost effective.</p>
+      <p begin="18.24s" xml:id="p7" end="21.17s">If this option is not<br />feasible, or cost effective,</p>
+      <p begin="21.17s" xml:id="p8" end="23.3s">the next option is to<br />engage in the long term</p>
+      <p begin="23.3s" xml:id="p9" end="26.72s">procurement of renewable<br />energy credits, or RECs.</p>
+      <p begin="26.72s" xml:id="p10" end="29.16s">The recommended approach<br />begins with a feasibility</p>
+      <p begin="29.16s" xml:id="p11" end="32.03s">assessment for an on site<br />renewable energy project</p>
+      <p begin="32.03s" xml:id="p12" end="34.33s">that can meet the<br />requirements of all buildings.</p>
+      <p begin="34.33s" xml:id="p13" end="37.33s">If this is not possible,<br />the next step is to evaluate</p>
+      <p begin="37.33s" xml:id="p14" end="39.97s">the feasibility of a building<br />specific installation</p>
+      <p begin="39.97s" xml:id="p15" end="42.09s">where the electrical<br />needs of a single building</p>
+      <p begin="42.09s" xml:id="p16" end="44.85s">could be met using<br />onsite renewable energy.</p>
+      <p begin="44.85s" xml:id="p17" end="47.53s">When on site renewable<br />energy projects are not cost</p>
+      <p begin="47.53s" xml:id="p18" end="50.15s">effective, buildings may<br />resort to the purchase of</p>
+      <p begin="50.15s" xml:id="p19" end="53.42s">renewable energy credits to<br />fulfill this guiding principle.</p>
+      <p begin="53.42s" xml:id="p20" end="55.8s">Clean energy refers to both renewable</p>
+      <p begin="55.81s" xml:id="p21" end="58.33s">electric energy and alternative energy.</p>
+      <p begin="58.33s" xml:id="p22" end="61.11s">Renewable electric energy<br />includes energy produced</p>
+      <p begin="61.11s" xml:id="p23" end="65.14s">by solar, wind, biomass,<br />landfill gas, ocean (including</p>
+      <p begin="65.14s" xml:id="p24" end="69.22s">tidal, wave current, and thermal),<br />geothermal, micro turbines,</p>
+      <p begin="69.226s" xml:id="p25" end="72.76s">municipal solid waste, or<br />new hydroelectric generation</p>
+      <p begin="72.76s" xml:id="p26" end="75.69s">capacity achieved from increased<br />efficiency or additions</p>
+      <p begin="75.69s" xml:id="p27" end="78.75s">of new capacity at an existing<br />hydroelectric project.</p>
+      <p begin="78.75s" xml:id="p28" end="81.5s">Alternative energy includes<br />energy generated from</p>
+      <p begin="81.5s" xml:id="p29" end="84.61s">technologies and approaches<br />that advance renewable heat</p>
+      <p begin="84.61s" xml:id="p30" end="88.47s">sources including solar<br />thermal, biomass, geothermal,</p>
+      <p begin="88.47s" xml:id="p31" end="92.12s">waste heat, combined heat and<br />power, small modular nuclear</p>
+      <p begin="92.12s" xml:id="p32" end="95.7s">reactor technologies, and<br />fuel cell energy systems, where</p>
+      <p begin="95.7s" xml:id="p33" end="98.7s">active capture and storage<br />of carbon dioxide emissions</p>
+      <p begin="98.7s" xml:id="p34" end="102.0s">associated with that energy<br />generation is verified.</p>
+      <p begin="102.0s" xml:id="p35" end="104.17s">One example of a federal<br />government building that</p>
+      <p begin="104.17s" xml:id="p36" end="106.89s">is raising the bar regarding<br />renewable and clean energy</p>
+      <p begin="106.89s" xml:id="p37" end="110.62s">is the CanmetENERGY laboratory<br />located in Varennes, Quebec.</p>
+      <p begin="110.62s" xml:id="p38" end="113.89s">This facility conducts applied<br />research aiming to facilitate</p>
+      <p begin="113.89s" xml:id="p39" end="116.72s">the integration of distributed<br />renewable energy sources</p>
+      <p begin="116.72s" xml:id="p40" end="119.92s">to the electricity grid and<br />to net zero energy buildings</p>
+      <p begin="119.92s" xml:id="p41" end="122.38s">in partnership with<br />industry and utilities.</p>
+      <p begin="122.38s" xml:id="p42" end="123.78s">The building itself is equipped</p>
+      <p begin="123.78s" xml:id="p43" end="125.99s">with three renewable energy systems.</p>
+      <p begin="125.99s" xml:id="p44" end="128.68s">The first is a solar wall<br />that captures thermal energy</p>
+      <p begin="128.68s" xml:id="p45" end="131.9s">from the sun and uses it to<br />preheat the fresh air intake.</p>
+      <p begin="131.9s" xml:id="p46" end="134.55s">At its peak performance, this<br />system was shown to generate</p>
+      <p begin="134.55s" xml:id="p47" end="137.96s">an estimated 10,000 kilowatt<br />hours of thermal energy.</p>
+      <p begin="137.96s" xml:id="p48" end="140.87s">The second uses a solar<br />photovoltaic system</p>
+      <p begin="140.87s" xml:id="p49" end="142.76s">with an estimated generation capacity</p>
+      <p begin="142.76s" xml:id="p50" end="145.81s">of 41,500 kilowatt hours per year.</p>
+      <p begin="145.81s" xml:id="p51" end="149.92s">This system of 162 photovoltaic<br />modules is split into</p>
+      <p begin="149.92s" xml:id="p52" end="152.39s">seven individual circuits<br />to allow for testing</p>
+      <p begin="152.39s" xml:id="p53" end="154.11s">of different inverter technologies.</p>
+      <p begin="154.11s" xml:id="p54" end="156.73s">The third system includes<br />an innovative solar thermal</p>
+      <p begin="156.73s" xml:id="p55" end="159.26s">heating and cooling system<br />which uses a parabolic</p>
+      <p begin="159.26s" xml:id="p56" end="162.22s">solar collector with an<br />ejector compressor to generate</p>
+      <p begin="162.22s" xml:id="p57" end="164.85s">heating or cooling loads<br />for use inside the building.</p>
+      <p begin="164.85s" xml:id="p58" end="168.34s">This technology is currently<br />being tested and optimized.</p>
+      <p begin="169.1s" xml:id="p59" end="171.16s">As outlined in the Greening<br />Government Strategy,</p>
+      <p begin="171.16s" xml:id="p60" end="175.3s">Canada has committed to using<br />100% clean energy by 2025</p>
+      <p begin="175.3s" xml:id="p61" end="178.24s">by producing or purchasing<br />megawatt hours of renewable</p>
+      <p begin="178.25s" xml:id="p62" end="180.68s">electricity equivalent to<br />that produced by the high</p>
+      <p begin="180.68s" xml:id="p63" end="182.96s">carbon portion of the electricity grid.</p>
+      <p begin="182.96s" xml:id="p64" end="185.219s">Departments can demonstrate<br />proper implementation</p>
+      <p begin="185.219s" xml:id="p65" end="188.1s">using various documentation,<br />which can take the form</p>
+      <p begin="188.1s" xml:id="p66" end="191.5s">of utility records, agreements,<br />contracts, or photos</p>
+      <p begin="191.5s" xml:id="p67" end="194.26s">of existing renewable<br />energy generation projects,</p>
+      <p begin="194.26s" xml:id="p68" end="196.76s">documentation showing that<br />renewable energy credits</p>
+      <p begin="196.76s" xml:id="p69" end="199.12s">have been acquired can also be used.</p>
+      <p begin="199.64s" xml:id="p70" end="202.42s">NRCan offers tools to help<br />evaluate the potential</p>
+      <p begin="202.42s" xml:id="p71" end="204.74s">for renewable and alternative energy.</p>
+      <p begin="204.75s" xml:id="p72" end="207.35s">These analysis products<br />provide energy managers</p>
+      <p begin="207.35s" xml:id="p73" end="210.68s">with information needed to<br />perform their own prescreening.</p>
+      <p begin="210.68s" xml:id="p74" end="213.8s">RETScreen is a clean<br />energy management software</p>
+      <p begin="213.8s" xml:id="p75" end="216.54s">for energy efficiency,<br />renewable energy, and</p>
+      <p begin="216.55s" xml:id="p76" end="219.1s">co-generation project feasibility analysis</p>
+      <p begin="219.1s" xml:id="p77" end="222.32s">as well as ongoing energy<br />performance analysis.</p>
+      <p begin="222.32s" xml:id="p78" end="225.31s">PV Perform Mod is a<br />software tool that predicts</p>
+      <p begin="225.31s" xml:id="p79" end="228.01s">the electricity output<br />of a photovoltaic system,</p>
+      <p begin="228.01s" xml:id="p80" end="231.04s">detects faults, and<br />evaluates system performance.</p>
+      <p begin="231.04s" xml:id="p81" end="232.97s">NRCan has developed a database of</p>
+      <p begin="232.97s" xml:id="p82" end="235.29s">photovoltaic potential and insolation.</p>
+      <p begin="235.29s" xml:id="p83" end="237.83s">This database provides<br />estimates of the electricity</p>
+      <p begin="237.83s" xml:id="p84" end="240.19s">that can be generated<br />by photovoltaic arrays</p>
+      <p begin="240.19s" xml:id="p85" end="242.88s">for over 3,500 municipalities in Canada.</p>
+      <p begin="242.88s" xml:id="p86" end="245.66s">NRCan also has a webpage<br />dedicated to highlighting</p>
+      <p begin="245.67s" xml:id="p87" end="248.05s">renewable and clean<br />energy projects in Canada.</p>
+      <p begin="248.05s" xml:id="p88" end="249.96s">Visit the websites shown to explore</p>
+      <p begin="249.96s" xml:id="p89" end="251.8s">Canadian success stories.</p>
+    </div>
+  </body>
+</tt>

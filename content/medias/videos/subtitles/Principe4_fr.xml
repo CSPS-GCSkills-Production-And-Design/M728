@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.32s" xml:id="p0" end="4.94s">Le principe directeur suivant concerne l’énergie renouvelable et propre.</p>
+      <p begin="4.94s" xml:id="p1" end="8.64s">Selon la pratique exemplaire,<br />on devrait évaluer deux solutions</p>
+      <p begin="8.64s" xml:id="p2" end="12.38s">d’accès à l’énergie renouvelable et<br />propre dans les installations.</p>
+      <p begin="12.39s" xml:id="p3" end="16.511s">La première solution consiste à mettre en<br />œuvre un projet d’énergie renouvelable</p>
+      <p begin="16.52s" xml:id="p4" end="21.92s">sur place lorsque sa rentabilité est démontrée<br />d’après l’analyse du coût du cycle de vie.</p>
+      <p begin="21.92s" xml:id="p5" end="24.94s">Si cette solution n’est pas réalisable ni rentable,</p>
+      <p begin="24.94s" xml:id="p6" end="30.02s">la deuxième solution consiste à obtenir des<br />crédits d’énergie renouvelable à long terme.</p>
+      <p begin="30.02s" xml:id="p7" end="33.72s">L’approche recommandée commence<br />par une évaluation de faisabilité d’un</p>
+      <p begin="33.72s" xml:id="p8" end="38.5s">projet d’énergie renouvelable sur place<br />qui peut permettre de respecter les exigences</p>
+      <p begin="38.5s" xml:id="p9" end="42.571s">de tous les bâtiments.<br />Si cela n’est pas possible, l’étape suivante</p>
+      <p begin="42.58s" xml:id="p10" end="47.8s">consiste à évaluer la faisabilité d’une<br />installation spécifique à un bâtiment lorsqu’il serait</p>
+      <p begin="47.8s" xml:id="p11" end="53.4s">possible de répondre aux besoins d’un seul bâtiment<br />en utilisant l’énergie renouvelable sur place.</p>
+      <p begin="53.4s" xml:id="p12" end="57.14s">Lorsque les projets d’énergie<br />renouvelable sur place ne sont pas rentables,</p>
+      <p begin="57.14s" xml:id="p13" end="60.62s">on peut recourir à l’achat de crédits<br />d’énergie renouvelable afin</p>
+      <p begin="60.62s" xml:id="p14" end="64.0s">d’appliquer ce principe directeur dans les bâtiments.</p>
+      <p begin="64.8s" xml:id="p15" end="67.5s">L’énergie propre se rapporte à l’énergie</p>
+      <p begin="67.5s" xml:id="p16" end="72.54s">électrique renouvelable ainsi qu’à l’énergie<br />de remplacement. L’énergie électrique renouvelable</p>
+      <p begin="72.54s" xml:id="p17" end="77.92s">comprend l’énergie produite par le soleil,<br />le vent, la biomasse, les gaz d’enfouissement</p>
+      <p begin="77.92s" xml:id="p18" end="82.85s">et les océans (y compris le courant de marée<br />et des vagues, et l’énergie thermique),</p>
+      <p begin="82.85s" xml:id="p19" end="88.45s">la géothermie, les micro-turbines, les déchets<br />solides municipaux ou les nouvelles capacités</p>
+      <p begin="88.45s" xml:id="p20" end="93.22s">de production hydroélectrique atteintes en<br />augmentant l’efficacité ou en ajoutant</p>
+      <p begin="93.22s" xml:id="p21" end="99.09s">de nouvelles capacités à un projet hydroélectrique<br />existant. L’énergie de remplacement comprend</p>
+      <p begin="99.09s" xml:id="p22" end="102.78s">l’énergie produite par des technologies<br />et des méthodes qui augmentent les sources</p>
+      <p begin="102.78s" xml:id="p23" end="108.16s">de chaleur renouvelables, notamment la thermie<br />solaire, la biomasse, la géothermie,</p>
+      <p begin="108.16s" xml:id="p24" end="113.74s">la chaleur résiduelle, la production combinée de<br />chaleur et d’énergie, la technologie de petits</p>
+      <p begin="113.74s" xml:id="p25" end="118.32s">réacteurs nucléaires modulaires, et les<br />systèmes d’énergie de piles à combustible,</p>
+      <p begin="118.32s" xml:id="p26" end="122.98s">lorsque le prélèvement actif et l’entreposage<br />des émissions de dioxyde de carbone en lien</p>
+      <p begin="122.98s" xml:id="p27" end="125.82s">avec la production d’énergie sont vérifiés.</p>
+      <p begin="126.6s" xml:id="p28" end="129.36s">Le laboratoire CanmetÉNERGIE situé à Varennes,</p>
+      <p begin="129.36s" xml:id="p29" end="133.94s">au Québec, est l’un des exemples d’un<br />bâtiment du gouvernement fédéral qui élève</p>
+      <p begin="133.94s" xml:id="p30" end="137.18s">la barre en matière d’énergie renouvelable et propre.</p>
+      <p begin="137.18s" xml:id="p31" end="141.4s">Cette installation permet d’effectuer de<br />la recherche appliquée afin d’encourager</p>
+      <p begin="141.4s" xml:id="p32" end="146.72s">l’intégration de sources d’énergie renouvelable<br />distribuée au réseau de distribution d’électricité</p>
+      <p begin="146.72s" xml:id="p33" end="151.98s">et aux bâtiments à consommation énergétique<br />nette zéro en partenariat avec l’industrie</p>
+      <p begin="151.99s" xml:id="p34" end="153.439s">et les services publics.</p>
+      <p begin="153.44s" xml:id="p35" end="157.68s">Le bâtiment est lui-même équipé de trois<br />systèmes d’énergie renouvelable.</p>
+      <p begin="157.68s" xml:id="p36" end="162.16s">Un mur solaire récupère l’énergie thermique<br />pour préchauffer l’apport d’air frais.</p>
+      <p begin="162.16s" xml:id="p37" end="166.12s">À son rendement maximal, le système a été<br />en mesure de produire environ</p>
+      <p begin="166.12s" xml:id="p38" end="168.86s">10 000 kWh d’énergie thermique.</p>
+      <p begin="168.86s" xml:id="p39" end="175.26s">Un système photovoltaïque solaire est capable<br />de produire 41 500 kWh par année.</p>
+      <p begin="175.26s" xml:id="p40" end="180.94s">Ce système de 162 modules photovoltaïques<br />est divisé en sept circuits individuels</p>
+      <p begin="180.94s" xml:id="p41" end="184.5s">pour permettre d’expérimenter<br />différentes technologies d’onduleurs.</p>
+      <p begin="184.5s" xml:id="p42" end="189.32s">Un système de chauffage et de refroidissement<br />thermique solaire utilise un capteur solaire</p>
+      <p begin="189.32s" xml:id="p43" end="194.08s">parabolique muni d’un compresseur-éjecteur<br />pour produire des charges de chauffage ou</p>
+      <p begin="194.08s" xml:id="p44" end="197.76s">de refroidissement pour la consommation interne<br />du bâtiment.</p>
+      <p begin="197.76s" xml:id="p45" end="201.42s">Cette technologie est actuellement mise à<br />l’essai et optimisée.</p>
+      <p begin="202.18s" xml:id="p46" end="207.34s">Comme le précise la Stratégie pour un gouvernement<br />vert, le Canada s’engage à consommer de</p>
+      <p begin="207.34s" xml:id="p47" end="213.1s">l’électricité 100 % verte d’ici 2025<br />en produisant ou en achetant une quantité</p>
+      <p begin="213.11s" xml:id="p48" end="217.82s">équivalente en mégawatts/heure d’électricité<br />renouvelable à celle produite par la partie</p>
+      <p begin="217.82s" xml:id="p49" end="222.0s">à teneur élevée en carbone du réseau de<br />distribution d’électricité.</p>
+      <p begin="222.0s" xml:id="p50" end="225.98s">Les ministères peuvent démontrer la bonne<br />mise en œuvre en utilisant :</p>
+      <p begin="225.98s" xml:id="p51" end="230.98s">Des documents, comme des relevés de services<br />publics, des ententes, des contrats ou des</p>
+      <p begin="230.98s" xml:id="p52" end="235.679s">photos de projets de production d’énergie<br />renouvelable existants sur la propriété</p>
+      <p begin="235.68s" xml:id="p53" end="239.56s">de l’organisme et destinés à être<br />utilisés par l’organisme;</p>
+      <p begin="239.56s" xml:id="p54" end="244.22s">Si vous disposez de crédits d’énergie<br />renouvelable, fournir les documents montrant</p>
+      <p begin="244.22s" xml:id="p55" end="246.56s">que ces ententes sont en place.</p>
+      <p begin="247.42s" xml:id="p56" end="250.5s">RNCan propose des outils permettant d’évaluer</p>
+      <p begin="250.5s" xml:id="p57" end="253.86s">le potentiel d’énergie renouvelable et<br />de remplacement.</p>
+      <p begin="253.86s" xml:id="p58" end="258.5s">Ces outils d’analyse fournissent aux gestionnaires<br />de l’énergie les renseignements nécessaires</p>
+      <p begin="258.5s" xml:id="p59" end="261.56s">pour effectuer leur propre évaluation préliminaire.</p>
+      <p begin="261.56s" xml:id="p60" end="264.4s">RETScreen est un logiciel de gestion de l’énergie</p>
+      <p begin="264.4s" xml:id="p61" end="269.54s">propre pour l’analyse de faisabilité de<br />projets en matière d’efficacité énergétique,</p>
+      <p begin="269.54s" xml:id="p62" end="272.58s">d’énergie renouvelable ou de coproduction ainsi que</p>
+      <p begin="272.58s" xml:id="p63" end="275.56s">l’analyse de rendement énergétique continue.</p>
+      <p begin="275.56s" xml:id="p64" end="281.08s">PV Perform Mod est un outil logiciel permettant<br />de prévoir la production d’électricité</p>
+      <p begin="281.08s" xml:id="p65" end="286.22s">d’un système photovoltaïque, de déterminer<br />les défaillances et d’évaluer la performance</p>
+      <p begin="286.22s" xml:id="p66" end="290.6s">du système. RNCan a créé une base de données d’ensoleillement</p>
+      <p begin="290.6s" xml:id="p67" end="292.74s">et de potentiel photovoltaïque.</p>
+      <p begin="292.74s" xml:id="p68" end="296.4s">Cette base de données fournit des<br />estimations sur l’électricité</p>
+      <p begin="296.4s" xml:id="p69" end="299.28s">qui peut être produite par des<br />ensembles photovoltaïques</p>
+      <p begin="299.28s" xml:id="p70" end="302.82s">pour plus de 3 500 municipalités au Canada.</p>
+      <p begin="302.82s" xml:id="p71" end="305.96s">RNCan a également une page Web<br />consacrée aux projets</p>
+      <p begin="305.96s" xml:id="p72" end="310.74s">d’énergie renouvelable et propre au Canada.<br />Consulter la page Web illustrée</p>
+      <p begin="310.74s" xml:id="p73" end="313.64s">pour découvrir les réussites au Canada.</p>
+    </div>
+  </body>
+</tt>
