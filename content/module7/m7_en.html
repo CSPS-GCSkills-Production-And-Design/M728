@@ -6,7 +6,7 @@
         <!--Step 1-->
         <div class="qs-start-activity">
             <p>Now that you have viewed the videos, please complete the following exam.</p>
-            <p>The exam includes 10 questions. There is no time limit, however, if you have to exit before completion, you will be required to restart the exam from the beginning when you re enter the course.</p>
+            <p>The exam includes 10 questions. There is no time limit, however, if you have to exit before completion, you will be required to restart the exam from the beginning when you re-enter the course.</p>
 			<p>Upon completion you will be shown your score. No pass mark is required.</p>
 			<p>Select the response that best answers the question then click on the “Next Question” button to proceed.</p>
             <button class="qs-start">Start the exam</button>
@@ -174,7 +174,7 @@
                         <p>Your answer is correct.</p>
                     </div>
                     <div class="qs-wrong">
-                        <p>Your answer is correct.</p>
+                        <p>Your answer is incorrect.</p>
                         <p><strong>The answer is:</strong>&nbsp;a) Yes</p>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                 <!-- QUESTION MAIN TEXT -->
                 
                 <fieldset>
-                    <legend class="qs-text">The purchase of Renewable Energy Credits can be used to meet the guiding principle relate to renewable and clean energy?</legend>
+                    <legend class="qs-text">Can the purchase of Renewable Energy Credits be used to meet the guiding principle related to renewable and clean energy?</legend>
                     
                     <!-- QUESTION ANSWERS -->
                     <div class="qs-answers">
@@ -333,15 +333,15 @@
                     <div class="qs-answers">
                         <p>
                             <input name="q9" class="wa" id="q9-a" type="radio">
-                            <label for="q9-a">a) 50% below 2005 levels by 2030 and by 60% by 2050</label>
+                            <label for="q9-a">a) 50% below 2005 levels by 2030 and 60% by 2050</label>
                         </p>
                         <p>
                             <input name="q9" class="ra" id="q9-b" type="radio">
-                            <label for="q9-b">b) 40% below 2005 levels by 2030 and by 80% by 2050</label>
+                            <label for="q9-b">b) 40% below 2005 levels by 2030 and 80% by 2050</label>
                         </p>
                         <p>
                             <input name="q9" class="wa" id="q9-c" type="radio">
-                            <label for="q9-c">c) 20% below 2005 levels by 2030 and by 70% by 2050</label>
+                            <label for="q9-c">c) 20% below 2005 levels by 2030 and 70% by 2050</label>
                         </p>
                     </div>
                 </fieldset>
@@ -364,13 +364,13 @@
                 <!-- QUESTION MAIN TEXT -->
                 
                 <fieldset>
-                    <legend class="qs-text">Which guiding principle is related to the best practice of performing recommissioning on building systems to ensure they are operation optimally?</legend>
+                    <legend class="qs-text">Which guiding principle is related to the best practice of performing recommissioning on building systems to ensure they are operating optimally?</legend>
                     
                     <!-- QUESTION ANSWERS -->
                     <div class="qs-answers">
                         <p>
                             <input name="q10" class="ra" id="q10-a" type="radio">
-                            <label for="q10-a">a) Enery Efficiency</label>
+                            <label for="q10-a">a) Energy Efficiency</label>
                         </p>
                         <p>
                             <input name="q10" class="wa" id="q10-b" type="radio">
@@ -440,3 +440,67 @@
     </div>
     <!-- END qs-elearning-activity --> 
 </section>
+<script>
+var oldText;
+if($("html").attr("lang") === "fr"){
+	var newText = "<b>Répondez à la question, puis cliquez sur le bouton « Valider l'activité » pour continuer.</b>";
+}
+else if ($("html").attr("lang") === "en"){
+	var newText = "<b>Select the response that best answers the question and then click on the “Submit exam” button to proceed.</b>";
+}
+
+//var qsObjParams = {"cheatMode":true,"debugMode":true}
+function fQsEventDispatcher(evt, params) {
+	if (evt === "activity_completed") {
+		// passed exam
+		if (params.activity_successfully_completed) {
+			//console.log("yes");
+			scorm.complete();
+			window.unlockPage('m8');
+			if ($('.qs-item-failed').length > 0) {
+				$('.qs-final-positive-feedback .recap').show();
+			}
+		}
+		// failed exam
+		else {
+			//console.log("nope");
+			$('.qs-final-negative-feedback .recap').show();
+			//$('.qs-post-feedback').remove(); // remove feedbacks/answers               
+		}
+		
+		if ($('.qs-item-failed').length > 0) {
+			$('.recap').show();
+			
+			$(".qs-elearning-activity .qs-recap-template .qs-recap-item").each(function(){
+				var num = $(this).attr("id").replace( /^\D+/g, '');
+				var element = "<h4 class=\"recapQuestionNum\">Question " + num + "</h4>";
+				$(this).prepend(element);
+			});
+		}
+		window.unlockPage('m8');
+	}
+	else if(evt === "question_navigation"){
+		setTimeout(function(){
+			$(".qs-question[aria-hidden='false']")[0].focus();
+		}, qsObj.settings.animBaseDuration+50);
+		
+		if(qsObj.qsComputeProgression(0,"qat") === qsObj.questionsArr.length - 1 && params.direction === 1){
+			oldText = $(".nextQuestion").html();
+			$(".nextQuestion").html(newText);
+		}
+		else{
+			$(".nextQuestion").html(oldText);
+		}
+	}
+}
+
+/*$(".qs-finallinkto-unanswered-placeholder").on("DOMSubtreeModified", function(){
+	console.log("test2");
+	if($(".qs-finallinkto-unanswered-placeholder div ul li a").length){
+		$(".qs-finallinkto-unanswered-placeholder").off();
+		$(".qs-finallinkto-unanswered-placeholder div ul li a").click(function(){
+			console.log("test");
+		});
+	}
+});*/
+</script>

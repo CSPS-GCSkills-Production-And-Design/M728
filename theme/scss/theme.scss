@@ -265,11 +265,11 @@ span.no-wrap{
 				
 				@at-root html.ie11 & {
 					.first{font-size: 0.85em;}
-					.second{font-size: 1.15em;}
+					.second{font-size: 1.05em;}
 				}
 				
 				@at-root html.ie11[lang='fr'] & {
-					.first{font-size: 0.9em;}
+					.first{font-size: 0.9em; padding-right: 13px;}
 					.second{font-size: 1.24em;}
 				}
 			}					
