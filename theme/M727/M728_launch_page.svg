@@ -18,9 +18,9 @@
 	.st12{fill:#CCC4D4;stroke:#CCC4D4;stroke-width:7;stroke-miterlimit:10;}
 	.st13{fill:#282D33;}
 	.st14{fill:none;stroke:#000000;stroke-width:3.5;stroke-miterlimit:10;}
-	.st15{font-family:'ArialMT';}
-	.st16{font-size:32px;}
-	.st17{font-size:38px;}
+	.st15{font-family:'Aleo-Bold';}
+	.st16{font-size:37.5007px;}
+	.st17{font-size:44.5321px;}
 	.st18{font-size:36px;}
 </style>
 <line class="st0" x1="145.4" y1="165.5" x2="135.5" y2="165.5"/>
@@ -185,9 +185,9 @@
 <path class="st7" d="M622.8,589.1c0,13.1-10.6,23.7-23.7,23.7s-23.7-10.6-23.7-23.7c0-13.1,10.6-23.7,23.7-23.7l0,0
 	C612.2,565.4,622.8,576,622.8,589.1z"/>
 <line class="st0" x1="590.8" y1="580.7" x2="607.5" y2="597.4"/>
-<rect x="596.9" y="577.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -241.0741 596.2089)" class="st13" width="4.5" height="23.6"/>
+<rect x="596.9" y="577.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -241.0751 596.1983)" class="st13" width="4.5" height="23.6"/>
 <line class="st0" x1="607.5" y1="580.7" x2="590.8" y2="597.4"/>
-<rect x="587.3" y="586.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -241.0387 596.1392)" class="st13" width="23.6" height="4.5"/>
+<rect x="587.3" y="586.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -241.0362 596.1529)" class="st13" width="23.6" height="4.5"/>
 <path class="st14" d="M393.8,520c0.6,0,0.9,0,1.5,0c14.6,0,26.5,11.9,26.5,26.5S409.9,573,395.3,573s-26.5-11.9-26.5-26.5
 	c0.2-7,3-13.6,8-18.5"/>
 <polyline class="st14" points="367.2,527.6 378.2,526.4 379.4,537.4 "/>
@@ -197,7 +197,7 @@
 <rect x="754.1" y="247.6" width="46.2" height="4"/>
 <rect x="754.1" y="257.5" width="33.3" height="4"/>
 <polygon points="741.3,259.5 736.2,254.7 738.9,251.8 740.9,253.6 747.3,245.5 750.4,248 "/>
-<text transform="matrix(1 0 0 1 135.2999 308.9502)" class="st15 st16">OPTIMIZING ENERGY PERFORMANCE</text>
-<text transform="matrix(1 0 0 1 135.2999 351.9502)" class="st2 st15 st17">of Existing Buildings</text>
-<text transform="matrix(1 0 0 1 135.2999 267.5039)" class="st2 st15 st18">M728</text>
+<text transform="matrix(0.8142 0 0 1 141.7002 291.3643)" class="st15 st16">OPTIMIZING ENERGY PERFORMANCE</text>
+<text transform="matrix(1.0599 0 0 1 141.6998 341.7559)" class="st2 st15 st17">OF EXISTING BUILDINGS</text>
+<text transform="matrix(1.002 0 0 1 606.1504 378.9004)" class="st2 st15 st18">M728</text>
 </svg>
