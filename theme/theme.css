@@ -102,7 +102,7 @@
 /* ------------------ SPLASH ELEMENTS --------------*/
 /* line 9, scss/_launcher.scss */
 #title-area {
-  background-image: url(M727/M728_launch_page.png);
+  background-image: url(M727/M728_launch_page.svg);
   width: 100%;
   padding-bottom: 33%;
   background-size: 40%;
@@ -124,7 +124,7 @@
 
 /* line 32, scss/_launcher.scss */
 html[lang='fr'] #title-area {
-  background-image: url(M727/M728_launch_page_fr.png); }
+  background-image: url(M727/M728_launch_page_fr.svg); }
 
 /* line 33, scss/_launcher.scss */
 #coursename, #title-welcome, #subcoursename {
